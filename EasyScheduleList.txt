@@ -1,0 +1,6 @@
+Optimization
+Numerical Methods 
+Operating Systems 
+Data Structures 
+Assembly 
+Object Oriented Design
