@@ -11,21 +11,28 @@ import java.net.URL;
  * http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85?OpenView&Start=1&Count=30&CollapseView
  * and exporting it as a JSON string that our database can import.
  *
- *
- * At the moment it only takes the URL and retrieves and parses out the text out of
- * the page's HTML. Still need to implement the parseText method as well as document
- * the whole thing.
+ * At the moment it only takes the URL and retrieves and parses out the text out
+ * of the page's HTML. Still need to implement the parseText method as well as
+ * document the whole thing.
  *
  * @author Zach
  */
 class DBHelper {
-
+    /**
+     * 
+     */
     BufferedReader in;
 
+    /**
+     *
+     */
     DBHelper() {
     }
 
-    
+    /**
+     *
+     * @param strURL
+     */
     void loadURL(String strURL) {
         try {
             URL url = new URL(strURL);
@@ -37,12 +44,16 @@ class DBHelper {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     String getText() {
         String line;
         String bodyText = "";
         try {
             while ((line = in.readLine()) != null) {
-                if (!(line.startsWith("<"))) {
+                if (!(line.matches("^\\s*[A-Z<-].*|^\\s*[*]+\\s*"))) {
                     bodyText += line + "\n";
                 }
             }
@@ -53,9 +64,13 @@ class DBHelper {
         return bodyText.trim();
     }
 
-    //method that parses text from getText into a JSON string
+    /**
+     *
+     * @param input
+     * @return
+     */
     String parseText(String input) {
-      return null;
+        return null;
     }
 
     //Just some garbage test to make sure the above methods work
