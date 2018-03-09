@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Scanner;
 
 /**
  * A class for taking input from LSU's course offerings pages found at
@@ -18,8 +19,9 @@ import java.net.URL;
  * @author Zach
  */
 class DBHelper {
+
     /**
-     * 
+     *
      */
     BufferedReader in;
 
@@ -70,14 +72,80 @@ class DBHelper {
      * @return
      */
     String parseText(String input) {
-        return null;
+        Scanner parser = new Scanner(input);
+        String start = "", avl = "", enrlCnt = "", abbr = "", num = "", type = "", sec = "", title = "", crHr = "", time = "", days = "", room = "", building = "", special = "", instructor = "", note = "", temp = "";
+        String output = String.format("{\n");
+        while (parser.hasNextLine()) {
+            start = parser.next();
+            parser.useDelimiter("\\s+");
+            if (start.matches("^\\s*[(\\d].*")) {
+                avl = start;
+                enrlCnt = parser.next();
+                abbr = parser.next();
+                num = parser.next();
+                if (parser.hasNext("\\S+\\s+\\d+")) {
+                    type = parser.next();
+                } else {
+                    type = "";
+                }
+                sec = parser.next();
+                parser.useDelimiter("\\d[.-]");
+                title = parser.next();
+                parser.useDelimiter("\\s+");
+                crHr = parser.next();
+                time = parser.next();
+                if (time.equals("TBA")) {
+                    days = "TBA";
+                    room = "TBA";
+                    building = "TBA";
+                } else {
+                    parser.useDelimiter("\\d+");
+                    days = parser.next();
+                    parser.useDelimiter("\\s+");
+                    room = parser.next();
+
+                    parser.useDelimiter("\\s{2,}");
+                    building = parser.next();
+                    parser.useDelimiter("\\s+");
+                }
+                temp = parser.nextLine();
+                if (temp.trim().matches("^\\S* [A-Z]|^")) {
+                    instructor = temp;
+                } else {
+                    String[] temp2 = temp.split("\\s{2,}");
+                    special = temp2[0];
+                    instructor = temp2[1];
+                }
+
+                if (parser.hasNext("\\s*[*]+")) {
+                    note = parser.nextLine();
+                }
+            }
+            output += String.format(
+                    "  \"%s\" : {\n"
+                    + "    \"Building\" : \"%s\",\n"
+                    + "    \"Credit Hours\" : \"%s\",\n"
+                    + "    \"Days\" : \"%s\",\n"
+                    + "    \"Instructor\" : \"%s\",\n"
+                    + "    \"Note\" : \"%s\",\n"
+                    + "    \"Time\" : \"%s\".\n"
+                    + "    \"Title\" : \"%s\",\n"
+                    + "    \"Type\" : \"%s\",\n"
+                    + "  }", num.trim(), building.trim(), crHr.trim(), days.trim(), instructor.trim(), note.trim(), time.trim(), title.trim(), type.trim());
+
+        }
+
+        return output += "}";
     }
 
     //Just some garbage test to make sure the above methods work
     public static void main(String args[]) {
         DBHelper a = new DBHelper();
         a.loadURL("http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/83ca4fa66b71a33a862581b40002423f?OpenDocument");
-        System.out.print(a.getText());
+        String ab = a.getText();
+        System.out.println();
+        System.out.println();
+        System.out.println(a.parseText(ab));
 
     }
 
