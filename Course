@@ -1,0 +1,56 @@
+class Course {
+
+    String courseId; //CSC 3380, etc
+    String name;
+    String instructor;
+    String days; // MWF, TuTh, MTuWTh, etc
+    Time startTime;
+    Time endTime;
+    int section;
+    int timeMinutes;
+    int hours;
+
+    Course(String aCourseId, int section, String aName, String aInstructor, String aDay, Time aStart, Time aEnd, int hours) {
+        courseId = aCourseId;
+        this.section = section;
+        name = aName;
+        instructor = aInstructor;
+        days = aDay;
+        startTime = aStart;
+        timeMinutes = (int) ((aEnd.getTime() - aStart.getTime()) / 60000);
+        this.hours = hours;
+    }
+
+    String getId() {
+        return courseId;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    String getProf() {
+        return instructor;
+    }
+
+    String getDays() {
+        return days;
+    }
+
+    Time getStart() {
+        return startTime;
+    }
+
+    double getTime() {
+        return timeMinutes;
+    }
+
+    Time getEnd() {
+        return endTime;
+    }
+    
+    int getHours()
+    {
+        return hours;
+    }
+}
