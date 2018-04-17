@@ -1,51 +1,3 @@
-class Course { 
-    // This class is just placeholder code to test the SchedulePainter class.  It can be removed once the SchedulePainter is changed to reference the database.
-    String courseId; //CSC 3380, etc
-    String name;
-    String instructor;
-    String days; // MWF, TuTh, MTuWTh, etc
-    Time startTime;
-    Time endTime;
-    int timeMinutes;
-
-    Course(String aCourseId, String aName, String aInstructor, String aDay, Time aStart, Time aEnd) {
-        courseId = aCourseId;
-        name = aName;
-        instructor = aInstructor;
-        days = aDay;
-        startTime = aStart;
-        timeMinutes = (int) ((aEnd.getTime() - aStart.getTime()) / 60000);
-    }
-
-    String getId() {
-        return courseId;
-    }
-
-    String getName() {
-        return name;
-    }
-
-    String getProf() {
-        return instructor;
-    }
-
-    String getDays() {
-        return days;
-    }
-
-    Time getStart() {
-        return startTime;
-    }
-
-    double getTime() {
-        return timeMinutes;
-    }
-
-    Time getEnd() {
-        return endTime;
-    }
-}
-
 class SchedulePainter {
 
     ArrayList<Course> courses = new ArrayList<>();
@@ -63,6 +15,29 @@ class SchedulePainter {
     void addCourse(Course aCourse) {
         courses.add(aCourse);
     }
+    
+    void removeCourse(Course aCourse)
+    {
+        courses.remove(aCourse);
+    }
+    
+    void removeCourse(int i)
+    {
+        courses.remove(i);
+    }
+    
+    Course getCourse(int i)
+    {
+        return courses.get(i);
+    }
+    
+    Color randomColor()
+    {
+        int R = (int) (Math.random() * 156 + 100);
+        int G = (int) (Math.random() * 156 + 100);
+        int B = (int) (Math.random() * 156 + 100);
+        return new Color(R, G, B);
+    }
 
     void printSchedule() throws IOException {
         File file = new File("C:\\Users\\caroline.birch\\Documents\\NetBeansProjects\\Scheduler\\build\\classes\\scheduler\\blank schedule.png");
@@ -71,11 +46,8 @@ class SchedulePainter {
         Graphics g = bi.createGraphics();
         g.drawImage(blank, 0, 0, null);
         for (int i = 0; i < courses.size(); i++) {
-            int R = (int) (Math.random() * 156 + 100);
-            int G = (int) (Math.random() * 156 + 100);
-            int B = (int) (Math.random() * 156 + 100);
-            Color randomColor = new Color(R, G, B);
-            g.setColor(randomColor);
+            Color color = randomColor();
+            g.setColor(color);
             int y = (int) ((courses.get(i).getStart().getTime() - new Time(7, 0, 0).getTime()) / 61017) + 99;
             int height = (int) (courses.get(i).getTime() * .98333333333);
             ArrayList<Integer> x = new ArrayList<>();
@@ -101,7 +73,7 @@ class SchedulePainter {
                 g.drawString(courses.get(i).getName(), x.get(j) + 10, y + 20);
                 g.drawString(courses.get(i).getId(), x.get(j) + 10, y + 32);
                 g.drawString(courses.get(i).getProf(), x.get(j) + 10, y + 44);
-                g.setColor(randomColor);
+                g.setColor(color);
             }
         }
         ImageIO.write(bi, "PNG", new File("new.PNG"));
