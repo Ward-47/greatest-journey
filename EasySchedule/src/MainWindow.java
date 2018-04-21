@@ -4,11 +4,8 @@
  * and open the template in the editor.
  */
 
-import java.awt.Toolkit;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.imageio.ImageIO;
+
+
 import javax.swing.ImageIcon;
 
 
@@ -21,8 +18,11 @@ public class MainWindow extends javax.swing.JFrame {
     /**
      * Creates new form MainWindow
      */
+    ImageIcon icon;
     public MainWindow() {
         initComponents();
+        icon = new ImageIcon("Images/Tiger.png");
+        setIconImage(icon.getImage());
     }
 
     /**
@@ -44,9 +44,6 @@ public class MainWindow extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("EasySchedule");
-        setIconImage(new ImageIcon(getClass().getResource("Tiger.png")).getImage());
-        setIconImages(null);
-
         button1.setActionCommand("Generate");
         button1.setLabel("Generate!");
         button1.setName(""); // NOI18N
@@ -117,9 +114,15 @@ public class MainWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>                        
 
-    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {                                        
-       this.dispose();
-       new MakeSchedule().setVisible(true);
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {     
+   
+        MakeSchedule2 t = new MakeSchedule2();
+        t.setVisible(true);
+        this.dispose();
+        
+        
+
+      
     }                                       
 
     private void textField1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
@@ -157,11 +160,12 @@ public class MainWindow extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainWindow().setVisible(true);
+                
+               
             }
         });
     }
 
-   public ImageIcon icon = new ImageIcon("Tiger.png");
     // Variables declaration - do not modify                     
     private java.awt.Button button1;
     private java.awt.Choice choice1;
