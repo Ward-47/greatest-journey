@@ -1,28 +1,54 @@
 class Course {
 
-    String courseId; //CSC 3380, etc
-    String name;
-    String instructor;
-    String days; // MWF, TuTh, MTuWTh, etc
+    String abbr;        //CSC
+    String num;         //3380
+    String type;        //Lec/Lab
+    String section;     //1
+    String name;        //Object Oriented Design
+    String crHr;        //Credit hours
     Time startTime;
     Time endTime;
-    int section;
-    int timeMinutes;
-    int hours;
+    String days;        //MWF, TuTh, MTuWTh, etc
+    String room;
+    String building;
+    String special;     //special enrollment
+    String instructor;  //Williams G
 
-    Course(String aCourseId, int section, String aName, String aInstructor, String aDay, Time aStart, Time aEnd, int hours) {
-        courseId = aCourseId;
+    int timeMinutes;
+
+    Course(String aCourseAbbr, String aCourseNum, String aType, String section, String aName, String crHr, Time aStart,
+            Time aEnd, String days, String room, String building, String special, String aInstructor) {
+        this.abbr = aCourseAbbr;
+        this.num = aCourseNum;
+        this.type = aType;
         this.section = section;
-        name = aName;
-        instructor = aInstructor;
-        days = aDay;
-        startTime = aStart;
-        timeMinutes = (int) ((aEnd.getTime() - aStart.getTime()) / 60000);
-        this.hours = hours;
+        this.name = aName;
+        this.crHr = crHr;
+        this.startTime = aStart;
+        this.endTime = aEnd;
+        this.days = days;
+        this.room = room;
+        this.building = building;
+        this.special = special;
+        this.instructor = aInstructor;
+        
+        this.timeMinutes = (int) ((aEnd.getTime() - aStart.getTime()) / 60000);
     }
 
-    String getId() {
-        return courseId;
+    String getAbbr() {
+        return abbr;
+    }
+
+    String getNum() {
+        return num;
+    }
+
+    String gtType() {
+        return type;
+    }
+
+    String getSection() {
+        return section;
     }
 
     String getName() {
@@ -48,9 +74,20 @@ class Course {
     Time getEnd() {
         return endTime;
     }
-    
-    int getHours()
-    {
-        return hours;
+
+    String getRoom() {
+    return room;
+    }
+
+    String getBuilding() {
+    return building;
+    }
+
+    String getSpecial() {
+        return special;
+    }
+
+    String getHours() {
+        return crHr;
     }
 }
