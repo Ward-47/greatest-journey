@@ -175,6 +175,21 @@ class DBHelper {
                         endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
                         endminutes = Integer.parseInt(split[0].substring(1, 2));
                     }
+                    
+                    if(startminutes == 50)
+                    {
+                        starthours++;
+                        startminutes = 0;
+                    }
+                    if(endminutes == 50)
+                    {
+                        endhours++;
+                        endhours = 0;
+                    }
+                    if(startminutes == 20)
+                        startminutes = 30;
+                    if(endminutes == 20)
+                        endminutes = 30;
 
                     //starts/ends afternoon add 12 hours
                     if (starthours < 7) {
@@ -184,6 +199,7 @@ class DBHelper {
                         endhours += 12;
                     }
                 }
+                
                 //Create localtime objects to feed into Time objects
                 LocalTime localStart = LocalTime.of(starthours, startminutes);
                 LocalTime localEnd = LocalTime.of(endhours, endminutes);
