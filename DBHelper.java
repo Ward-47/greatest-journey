@@ -166,10 +166,10 @@ class DBHelper {
                     }
 
                     if (split[1].length() == 4) {
-                        endhours = Integer.parseInt(split[0].substring(0, 1)) + 12;
+                        endhours = Integer.parseInt(split[0].substring(0, 1));
                         endminutes = Integer.parseInt(split[0].substring(2, 3));
                     } else if (split[1].length() == 3) {
-                        endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
+                        endhours = Integer.parseInt(split[0].substring(0, 0));
                         endminutes = Integer.parseInt(split[0].substring(1, 2));
                     }
                     
