@@ -4,17 +4,17 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Time;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * A class for taking input from LSU's course offerings pages found at
  * http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85?OpenView&Start=1&Count=30&CollapseView
- * and exporting it as a JSON string that our database can import.
+ * and exporting it as an ArrayList of courses.
  *
  * At the moment it only takes the URL and retrieves and parses out the text out
  * of the page's HTML. Still need to implement the parseText method as well as
@@ -25,19 +25,20 @@ import java.util.Scanner;
 class DBHelper {
 
     /**
-     *
+     * Buffered reader holding the current URL
      */
     BufferedReader in;
 
     /**
-     *
+     *  Basic unparameterized constructor
      */
     DBHelper() {
     }
 
     /**
+     * Changes the URL associated with this instance of DBHelper
      *
-     * @param URL
+     * @param URL The URL as a URL object
      */
     void loadURL(URL URL) {
         try {
@@ -50,8 +51,9 @@ class DBHelper {
     }
 
     /**
-     *
-     * @param strURL
+     * Changes the URL associated with this instance of DBHelper
+     * 
+     * @param strURL The new URL in string format
      */
     void loadURL(String strURL) {
         try {
@@ -65,8 +67,9 @@ class DBHelper {
     }
 
     /**
-     *
-     * @return
+     * Scrapes the page's html to get an input string of courses.
+     * 
+     * @return An input string of courses ready to be parsed / displayed
      */
     String getText() {
         String line;
@@ -85,9 +88,10 @@ class DBHelper {
     }
 
     /**
-     *
-     * @param input
-     * @return
+     * Parses out input text into an arraylist of courses
+     * 
+     * @param input An input String in the same format as LSU's course offerings pages
+     * @return An arraylist of courses
      */
     ArrayList<Course> parseText(String input) {
         ArrayList courseList = new ArrayList();
@@ -96,6 +100,7 @@ class DBHelper {
         String output = "";
         line = parser.nextLine();
         while (parser.hasNextLine()) {
+            //Reset all values
             avl = "";
             enrlCnt = "";
             abbr = "";
@@ -110,6 +115,8 @@ class DBHelper {
             building = "";
             special = "";
             instructor = "";
+
+            //Ensure line is a course line and parse out data
             if (line.matches("^[(\\d].*")) {
                 avl = line.substring(0, 3).trim();
                 enrlCnt = line.substring(4, 9).trim();
@@ -126,15 +133,64 @@ class DBHelper {
                 special = line.substring(99, 105).trim();
                 instructor = line.substring(106).trim();
 
-                //String[] split = time.split("-");
-                /**************************************************************
-                 * 
-                 * Need to add code to convert String time to Time time
-                 * 
-                 **************************************************************/
-                
-                //Time start = new Time();
-                //Time end = new Time();
+                //split the timne into a start and end time
+                String[] split = time.split("-");
+                int starthours = 0, endhours = 0, startminutes = 0, endminutes = 0;
+
+                //Night class: Add 12 hours to start or end time
+                if (split[1].charAt(split[1].length() - 1) == 'N') {
+                    if (split[0].length() == 4) {
+                        starthours = Integer.parseInt(split[0].substring(0, 1)) + 12;
+                        startminutes = Integer.parseInt(split[0].substring(2, 3));
+                    } else if (split[0].length() == 3) {
+                        starthours = Integer.parseInt(split[0].substring(0, 0)) + 12;
+                        startminutes = Integer.parseInt(split[0].substring(1, 2));
+                    }
+
+                    //Delete the night class marker
+                    split[1] = split[1].replace("N", "");
+
+                    if (split[1].length() == 4) {
+                        endhours = Integer.parseInt(split[0].substring(0, 1)) + 12;
+                        endminutes = Integer.parseInt(split[0].substring(2, 3));
+                    } else if (split[1].length() == 3) {
+                        endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
+                        endminutes = Integer.parseInt(split[0].substring(1, 2));
+                    }
+
+                } //Not a night class 
+                else {
+                    if (split[0].length() == 4) {
+                        starthours = Integer.parseInt(split[0].substring(0, 1));
+                        startminutes = Integer.parseInt(split[0].substring(2, 3));
+                    } else if (split[0].length() == 3) {
+                        starthours = Integer.parseInt(split[0].substring(0, 0));
+                        startminutes = Integer.parseInt(split[0].substring(1, 2));
+                    }
+
+                    if (split[1].length() == 4) {
+                        endhours = Integer.parseInt(split[0].substring(0, 1)) + 12;
+                        endminutes = Integer.parseInt(split[0].substring(2, 3));
+                    } else if (split[1].length() == 3) {
+                        endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
+                        endminutes = Integer.parseInt(split[0].substring(1, 2));
+                    }
+
+                    //starts/ends afternoon add 12 hours
+                    if (starthours < 7) {
+                        starthours += 12;
+                    }
+                    if (endhours <= 7) {
+                        endhours += 12;
+                    }
+                }
+                //Create localtime objects to feed into Time objects
+                LocalTime localStart = LocalTime.of(starthours, startminutes);
+                LocalTime localEnd = LocalTime.of(endhours, endminutes);
+
+                //Create Time objects compatable with SchedulePainter
+                Time start = Time.valueOf(localStart);
+                Time end = Time.valueOf(localEnd);
                 Course newCourse = new Course(abbr, num, type, sec, title, crHr, start, end, days, room, building, special, instructor);
                 courseList.add(newCourse);
             }
@@ -264,23 +320,13 @@ class DBHelper {
             "OCEANOGRAPHY & COASTAL SCIENCE", "PATHOBIOLOGICAL SCIENCES", "PETROLEUM ENGINEERING", "PHILOSOPHY", "PHYSICAL SCIENCE", "PHYSICS", "PLANT HEALTH", "POLITICAL SCIENCE", "PSYCHOLOGY",
             "PUBLIC ADMINISTRATION", "RELIGIOUS STUDIES", "RENEWABLE NATURA L RESOURCES", "SCREEN ARTS", "SOCIAL WORK", "SOCIOLOGY", "SPANISH", "STUDENT SUPPORT SERVICES",
             "TEXTILES,APPAREL & MERCHANDISI", "THEATRE", "UNIVERSITY STUDIES", "VETERINARY CLINICAL SCIENCES", "VETERINARY MEDICINE", "WOMEN'S AND GENDER STUDIES"};
-
-        PrintWriter out = new PrintWriter("export.json");
-        out.printf(""
-                + "{\n"
-                + "  \"Courses\" : {\n");
-        DBHelper DBExport = new DBHelper();
-        for (int i = 0; i < 3; i++) {
-            DBExport.loadURL(allURL[i]);
-            out.printf("    \"%s\" : {\n", allName[i]);
-            String txt = DBExport.getText();
-            out.print(DBExport.parseText(txt));
-            out.printf("    },\n");
-        }
-        out.printf(""
-                + "  }\n"
-                + "}\n");
-        out.close();
-
+        /*
+         PrintWriter out = new PrintWriter("export.json"); out.printf("" +
+         "{\n" + " \"Courses\" : {\n"); DBHelper DBExport = new DBHelper();
+         for (int i = 0; i < 3; i++) { DBExport.loadURL(allURL[i]);
+         out.printf(" \"%s\" : {\n", allName[i]); String txt =
+         DBExport.getText(); out.print(DBExport.parseText(txt)); out.printf("
+         },\n"); } out.printf("" + " }\n" + "}\n"); out.close();
+         */
     }
 }
