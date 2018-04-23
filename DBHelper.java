@@ -189,8 +189,8 @@ class DBHelper {
                 LocalTime localEnd = LocalTime.of(endhours, endminutes);
 
                 //Create Time objects compatable with SchedulePainter
-                Time start = Time.valueOf(localStart);
-                Time end = Time.valueOf(localEnd);
+                Time start = new Time(starthours, startminutes, 0);
+                Time end = new Time(endhours, endminutes, 0);
                 Course newCourse = new Course(abbr, num, type, sec, title, crHr, start, end, days, room, building, special, instructor);
                 courseList.add(newCourse);
             }
