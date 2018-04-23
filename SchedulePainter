@@ -54,13 +54,13 @@ class SchedulePainter {
             if (courses.get(i).getDays().contains("M")) {
                 x.add(95);
             }
-            if (courses.get(i).getDays().contains("Tu")) {
+            if (courses.get(i).getDays().contains("T") && courses.get(i).getDays().indexOf("T") <= 1 && courses.get(i).getDays().charAt(0) != 'W') {
                 x.add(248);
             }
             if (courses.get(i).getDays().contains("W")) {
                 x.add(401);
             }
-            if (courses.get(i).getDays().contains("Th")) {
+            if (courses.get(i).getDays().contains("T") && courses.get(i).getDays().substring(courses.get(i).getDays().indexOf("T")).contains("T")) {
                 x.add(554);
             }
             if (courses.get(i).getDays().contains("F")) {
@@ -71,7 +71,7 @@ class SchedulePainter {
                 g.setColor(Color.black);
                 g.drawRect(x.get(j), y, 153, height);
                 g.drawString(courses.get(i).getName(), x.get(j) + 10, y + 20);
-                g.drawString(courses.get(i).getId(), x.get(j) + 10, y + 32);
+                g.drawString(courses.get(i).getAbbr()+" "+courses.get(i).getNum(), x.get(j) + 10, y + 32);
                 g.drawString(courses.get(i).getProf(), x.get(j) + 10, y + 44);
                 g.setColor(color);
             }
