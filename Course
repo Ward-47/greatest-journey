@@ -90,4 +90,10 @@ class Course {
     String getHours() {
         return crHr;
     }
+    
+    public String toString()
+    {
+        return abbr + "  " + num + "  " + section + "  " + name + "  " + crHr + "  " + startTime + " - " + endTime
+                + "  " + days + "  " + room + "  " + building + "  " + instructor;
+    }
 }
