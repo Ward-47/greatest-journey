@@ -1,0 +1,10 @@
+ 19     1  ATRN 2200         1  AT CLIN PRAC RES I     2.0   730-0820       F                                        WORKMAN P
+  5    15  ATRN 3200         1  AT CLIN PRAC RES 3     2.0   730-0820     W                                          MICKUS M
+  9    11  ATRN 4200         1  AT CLIN PRAC RES 5     2.0   730-0820     W    0140 LONG FIELDHOUSE                  COLLINS M
+  9    11  ATRN 4400         1  CLI DIAG PSYCH-SOC     3.0   730-0850    T TH                                        CASTLE R
+ 19     1  ATRN 2300         1  TAPING BRACE EQ FIT    3.0   900-1020   MTWTH                                        MICKUS M
+ 19     1  ATRN 2600         1  AT CLINICAL SKILL I    3.0   730-0850   MTWTH                                        WORKMAN P
+  5    15  ATRN 3505         1  ORTHO EVAL II          3.0  1030-1140   MTWTH                                        BENSON A
+  9    11  ATRN 4508         1  HEALTHCARE ADMIN AT    3.0   900-1020    T TH                                        COLLINS M
+ 19     1  ATRN 2001         1  FOUND PT CLI ASSESS    3.0   900-1020   MTWTH                                        BENSON A
+  5    15  ATRN 3600         1  AT CLINICAL SKILL 2    3.0  1030-1140   MTWTH                                        CASTLE R

@@ -1,0 +1,30 @@
+(F)    60  MKT  3401         2  PRIN OF MARKETING      3.0   930-1020   M W F  1615 BUS ED N WING                    SANTAELLA M
+(F)    60  MKT  3401         3  PRIN OF MARKETING      3.0  1030-1120   M W F  1615 BUS ED N WING                    SANTAELLA M
+(F)    60  MKT  3401         4  PRIN OF MARKETING      3.0   130-0220   M W F  1615 BUS ED N WING                    SANTAELLA M
+ 33    27  MKT  3401         5  PRIN OF MARKETING      3.0   230-0320   M W F  1615 BUS ED N WING                    SANTAELLA M
+476   525  MKT  3401         1  PRIN OF MARKETING      3.0   130-0250    T TH  0101 GYM AUDITORIUM                   KARAM T
+(F)    40  MKT  3411         1  CONSUM ANALYS & BEHA   3.0   900-1020    T TH  1735 BUS ED N WING                    KUO A
+(F)    40  MKT  3411         2  CONSUM ANALYS & BEHA   3.0  1030-1150    T TH  1735 BUS ED N WING                    KUO A
+(F)    41  MKT  3411         3  CONSUM ANALYS & BEHA   3.0   130-0250    T TH  1325 BUS ED S WING                    SZOCS C
+ 30    10  MKT  3411         4  CONSUM ANALYS & BEHA   3.0   300-0420    T TH  1325 BUS ED S WING                    SZOCS C
+  6    34  MKT  3413         3  MARKETING RESEARCH     3.0  1230-0120   M W F  1835 BUS ED N WING                    LU S
+(F)    40  MKT  3413         1  MARKETING RESEARCH     3.0   900-1020   M W    1425 BUS ED S WING                    WU J
+(F)    40  MKT  3413         2  MARKETING RESEARCH     3.0  1030-1150   M W    1425 BUS ED S WING                    WU J
+(F)    40  MKT  3421         1  MKT COMM: PROMOTION    3.0  1030-1150    T TH  1325 BUS ED S WING                    FOLSE J
+ 10    30  MKT  3427         2  PROFESSIONAL SELLING   3.0   930-1020   M W F  1700 BUS ED N WING                    GLEIBERMAN A
+(F)    40  MKT  3427         3  PROFESSIONAL SELLING   3.0  1030-1120   M W F  1700 BUS ED N WING                    GLEIBERMAN A
+  7    33  MKT  3427         5  PROFESSIONAL SELLING   3.0  1230-0120   M W F  1700 BUS ED N WING                    GLEIBERMAN A
+ 13    27  MKT  3427         4  PROFESSIONAL SELLING   3.0   130-0220   M W F  1700 BUS ED N WING                    GLEIBERMAN A
+(F)    40  MKT  3427         1  PROFESSIONAL SELLING   3.0   900-1020    T TH  1225 BUS ED S WING                    PARR J
+(F)    40  MKT  3500         1  MKT TOOLS FUNDAMENTA   3.0   130-0250    T TH  1735 BUS ED N WING                    LONG A
+ 32    13  MKT  3500         2  MKT TOOLS FUNDAMENTA   3.0   300-0420    T TH  1735 BUS ED N WING                    LONG A
+(F)    40  MKT  4423         1  SALES MANAGEMENT       3.0   730-0850    T TH  1305 BUS ED S WING                    ATEFI Y
+(F)    40  MKT  4423         2  SALES MANAGEMENT       3.0   900-1020    T TH  1305 BUS ED S WING                    ATEFI Y
+  8    32  MKT  4451         3  MARKETING MANAGEMNT    3.0  1130-1220   M W F  1800 BUS ED N WING                    MOFFETT J
+ 11    29  MKT  4451         1  MARKETING MANAGEMNT    3.0   130-0250    T TH  1425 BUS ED S WING   CI-WRITTEN&SPOK  LINDSEY HALL
+ 35     5  MKT  4451         2  MARKETING MANAGEMNT    3.0   300-0420    T TH  1425 BUS ED S WING   CI-WRITTEN&SPOK  LINDSEY HALL
+ 18     2  MKT  4478 CLI     1  SALES PRACTICUM        3.0   830-0920   M W F  1305 BUS ED S WING   CI-SPOKEN&VISUA  ACCARDO P
+ 15     5  MKT  4478 CLI     2  SALES PRACTICUM        3.0   930-1020   M W F  1305 BUS ED S WING   CI-SPOKEN&VISUA  ACCARDO P
+  9    11  MKT  4478 CLI     3  SALES PRACTICUM        3.0  1030-1120   M W F  1800 BUS ED N WING                    DERBES R
+ 19     1  MKT  7450         1  TOP IN ADV MKT MGT     3.0   130-0420      TH  1120 BUS ED S WING                    FOLSE J
+ 18     2  MKT  7488         1  MARKETING MODELS       3.0   130-0420    T     1120 BUS ED S WING                    NIEDRICH R

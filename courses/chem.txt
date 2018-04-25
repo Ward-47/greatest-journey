@@ -1,0 +1,76 @@
+ 55    45  CHEM 1001         2  CHEMICAL FUNDAMENTAL   3.0   130-0220   M W F  0103 TUREAUD HALL                     MARZILLI L
+(H)        CHEM 1001         1  CHEMICAL FUNDAMENTAL   3.0  1200-0120    T TH  0241 HIMES
+ 55    34  CHEM 1002         1  CHEM OF LIFE & ENVIR   3.0   130-0250    T TH  0202 WILLIAMS                         GARNO J
+244    21  CHEM 1201         1  GEN CHEMISTRY I        3.0   730-0820   M W F  0103 WILLIAMS                         BUTLER L
+(F)    85  CHEM 1201         2  GEN CHEMISTRY I        3.0   930-1020   M W F  0103 WILLIAMS                         HOPKINS J
+ 30   150  CHEM 1201        16  GEN CHEMISTRY I        3.0   930-1020   M W F                       RES COLG-ENGINE
+127   138  CHEM 1201         3  GEN CHEMISTRY I        3.0  1030-1120   M W F  0103 WILLIAMS                         HOGAN J
+157   108  CHEM 1201         4  GEN CHEMISTRY I        3.0  1130-1220   M W F  0103 WILLIAMS                         HOPKINS J
+ 50    65  CHEM 1201         5  GEN CHEMISTRY I        3.0   130-0220   M W F  0103 WILLIAMS                         COOK E
+ 55    55  CHEM 1201        12  GEN CHEMISTRY I        3.0   130-0220   M W F                       RES COLG-ENGINE
+  8    12  CHEM 1201        13  GEN CHEMISTRY I        3.0   130-0220   M W F                       RES COLG-AGRICU
+ 14     6  CHEM 1201        14  GEN CHEMISTRY I        3.0   130-0220   M W F                       RES COLG-INFORM
+258     7  CHEM 1201         6  GEN CHEMISTRY I        3.0   230-0320   M W F  0103 WILLIAMS                         SCHNEIDER C
+232    33  CHEM 1201         7  GEN CHEMISTRY I        3.0   330-0420   M W F  0103 WILLIAMS                         HOGAN J
+225    25  CHEM 1201         8  GEN CHEMISTRY I        3.0   900-1020    T TH  0102 WILLIAMS                         KIZILKAYA F
+ 51    54  CHEM 1201         9  GEN CHEMISTRY I        3.0  1030-1150    T TH  0102 WILLIAMS                         HURST K
+ 25        CHEM 1201        15  GEN CHEMISTRY I        3.0  1030-1150    T TH                       RES COLG-HSE
+ 78    42  CHEM 1201        17  GEN CHEMISTRY I        3.0  1030-1150    T TH                       RES COLG-SCIENC
+220    30  CHEM 1201        10  GEN CHEMISTRY I        3.0  1200-0120    T TH  0102 WILLIAMS                         HURST K
+(H)        CHEM 1201        11  GEN CHEMISTRY I        3.0   300-0420    T TH  0130 HOWE RUSSELL E                   CHAMBERS M
+103   162  CHEM 1202         1  GENERAL CHEMISTRY      3.0  1230-0120   M W F  0103 WILLIAMS                         DURAN R
+194    56  CHEM 1202         2  GENERAL CHEMISTRY      3.0   730-0850    T TH  0102 WILLIAMS                         HABER L
+(F)   265  CHEM 1202         3  GENERAL CHEMISTRY      3.0   300-0420    T TH  0103 WILLIAMS                         STANLEY G
+(F)    12  CHEM 1212 LAB     1  GENERAL CHEM LAB       2.0   830-1020   M W    0138 CHOPPIN         1-49% WEB BASED  SCHNEIDER C
+ 53    36  CHEM 1421         1  HONORS: GENERAL CHEM   3.0   830-0920   M W F  0202 WILLIAMS                         COOK E
+ 12    77  CHEM 1421         2  HONORS: GENERAL CHEM   3.0  1030-1120   M W F  0202 WILLIAMS                         COOK E
+(F)    89  CHEM 2001         2  ANALYTICAL CHEMISTRY   3.0  1200-0120    T TH  0202 WILLIAMS                         MACNAUGHTAN M
+(H)        CHEM 2001         1  ANALYTICAL CHEMISTRY   3.0   300-0420    T TH  0206 TUREAUD HALL
+(F)    18  CHEM 2002 LAB     1  ANALYTICAL CHEM LAB    1.0   130-0420   M      0302 WILLIAMS                         KIZILKAYA F
+  1    17  CHEM 2002 LAB     2  ANALYTICAL CHEM LAB    1.0   130-0420     W    0302 WILLIAMS                         KIZILKAYA F
+ 21    79  CHEM 2060         1  SURVEY ORGANIC CHEM    3.0   130-0250    T TH  E137 HOWE RUSSELL E                   LEONIK F
+(F)   265  CHEM 2261         1  ORGANIC CHEMISTRY      3.0   830-0920   M W F  0103 WILLIAMS                         CROWE W
+(F)   265  CHEM 2261         2  ORGANIC CHEMISTRY      3.0   230-0320   M W F  0143 COATES                           CROWE W
+189    76  CHEM 2261         3  ORGANIC CHEMISTRY      3.0   730-0850    T TH  0103 WILLIAMS                         DAVILA A
+ 98   162  CHEM 2262         2  ORGANIC CHEMISTRY      3.0   130-0220   M W F  0143 COATES                           SPIVAK D
+192    73  CHEM 2262         1  ORGANIC CHEMISTRY      3.0   130-0250    T TH  0103 WILLIAMS                         VICENTE M
+(F)    34  CHEM 2364 LAB     1  ORGANIC CHEM LAB       2.0   730-1020   M W    0308 WILLIAMS                         NAUMAN T
+(F)    34  CHEM 2364 LAB     2  ORGANIC CHEM LAB       2.0   730-1020   M W    0314 WILLIAMS                         NAUMAN T
+(F)    34  CHEM 2364 LAB     9  ORGANIC CHEM LAB       2.0  1030-0120   M W    0308 WILLIAMS                         DAVILA A
+(F)    34  CHEM 2364 LAB    10  ORGANIC CHEM LAB       2.0  1030-0120   M W    0314 WILLIAMS                         DAVILA A
+(F)    34  CHEM 2364 LAB     3  ORGANIC CHEM LAB       2.0   130-0420   M W    0308 WILLIAMS                         NAUMAN T
+(F)    34  CHEM 2364 LAB     4  ORGANIC CHEM LAB       2.0   130-0420   M W    0314 WILLIAMS                         NAUMAN T
+ 26     8  CHEM 2364 LAB    11  ORGANIC CHEM LAB       2.0   430-0720N  M W    0314 WILLIAMS        MAJORS ONLY      KARTIKA R
+(F)    34  CHEM 2364 LAB     5  ORGANIC CHEM LAB       2.0   900-1150    T TH  0308 WILLIAMS                         NAUMAN T
+(F)    34  CHEM 2364 LAB     6  ORGANIC CHEM LAB       2.0   900-1150    T TH  0314 WILLIAMS                         NAUMAN T
+(F)    34  CHEM 2364 LAB     7  ORGANIC CHEM LAB       2.0   130-0420    T TH  0308 WILLIAMS                         DAVILA A
+(F)    34  CHEM 2364 LAB     8  ORGANIC CHEM LAB       2.0   130-0420    T TH  0314 WILLIAMS                         DAVILA A
+ 16    34  CHEM 2461         1  HNRS: ORGANIC CHEM I   3.0   930-1020   M W F  0210 WILLIAMS                         SMITH K
+ 76    24  CHEM 3491         1  PHYSICAL CHEM I        3.0   900-1020    T TH  0103 TUREAUD HALL                     CHEN B
+(F)    65  CHEM 3491         2  PHYSICAL CHEM I        3.0  1030-1150    T TH  0214 WILLIAMS                         LOPATA K
+ 25    25  CHEM 3492         1  PHYSICAL CHEM II       3.0  1030-1150    T TH  0229 TUREAUD HALL                     KUMAR R
+  8     8  CHEM 3493 LAB     1  PHYSICAL CHEM LAB      3.0   130-0420   M W    0169 COATES          CI-WRITTEN&VISU  RUPNIK K
+ 26     4  CHEM 4005         1  RESEARCH METHODS       3.0  1030-1220   M W    0205 PRESCOTT                         MESA D
+ 23     2  CHEM 4010         1  MACROMOLEC SYS I       3.0   130-0320    T     0215 WILLIAMS                         ZHANG D
+ 18    22  CHEM 4150         1  ENVIRONMENTAL CHEM     3.0  1030-1150    T TH  0201 WILLIAMS                         COOK R
+ 32    18  CHEM 4552         1  INSTR CHAR ORG COMPS   2.0   930-1020   M W    0201 WILLIAMS                         MURRAY K
+ 15     1  CHEM 4553 LAB     1  EXP INST CHAR ORG CP   2.0   130-0420    T TH  0302 WILLIAMS        CI-WRITTEN&SPOK  RUPNIK K
+ 22     3  CHEM 4556         1  ANALYT SPECTROSCOPY    3.0  1030-1150    T TH  0108 TUREAUD HALL                     GILMAN S
+ 24     1  CHEM 4559         1  ELECTROANALYT CHEM     3.0  1030-1150   M W    0134 LOCKETT                          MCCARLEY R
+ 27     3  CHEM 4561         1  PHYS-ORGANIC CHEM      3.0  1030-1120   M W F  0225 TUREAUD HALL                     LEE S
+ 22    28  CHEM 4562         1  INTERMED ORGANIC       3.0   830-0920   M W F  0228 TUREAUD HALL                     TAYLOR C
+ 29    21  CHEM 4570         1  INORGANIC CHEMISTRY    3.0   900-1020    T TH  0228 TUREAUD HALL    CI-VISUAL&TECH   XIE W
+ 15        CHEM 4596         1  CHEMICAL THERMODYNAM   3.0  1130-1220   M W F  0206 WILLIAMS                         WANG T
+ 30        CHEM 7750         1  ORG/DISORGANIZ MEDIA   2-3   900-1020    T TH  0214 WILLIAMS                         WARNER I
+ 20        CHEM 7760         2  ORGANIC MATERIALS      2-3   900-1010    T TH                                        NESTEROV E
+ 19     1  CHEM 7770         1  SYM TRANS METAL COMP   2-3   130-0250   M W    0248 WOODIN HALL                      ELGRISHI N
+ 17     3  CHEM 7780         1  SCATTERING METHODS     2-3   230-0520    T     0031 ALLEN                            SCHNEIDER G
+ 47     3  CHEM 7800 SEM     1  SEMINAR                1.0  1230-0120   M      E134 HOWE RUSSELL E                   COOK R
+ 39     1  CHEM 7800 SEM     2  SEMINAR                1.0  1230-0120    T                                           MAVERICK A
+ 48     2  CHEM 7800 SEM     3  SEMINAR                1.0  1230-0120    T                                           KARTIKA R
+ 39     1  CHEM 7800 SEM     4  SEMINAR                1.0  1230-0120    T
+ 50        CHEM 7800 SEM     8  SEMINAR                1.0  1230-0120     W                                          POJMAN J
+ 30        CHEM 7800 SEM     7  SEMINAR                1.0  1230-0120      TH
+145    11  CHEM 7800 SEM     5  SEMINAR                1.0   330-0450       F  0010 LOCKETT
+ 89        CHEM 7800 SEM     6  SEMINAR                1.0   900-1050        S 0202 WILLIAMS
+ 47     3  CHEM 7901 SEM     1  SPEAK MACROMOLECULES   1.0  1230-0120       F                                        ZHANG D

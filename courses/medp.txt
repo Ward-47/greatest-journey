@@ -1,0 +1,7 @@
+ 18     2  MEDP 4331         1  RAD PROT & EXPOS EVA   3.0  1030-1120   M W F  0118 NUCLEAR SCIENCE                  WANG W
+ 19     1  MEDP 4351         1  RAD DET & INSTRUM      2.0   930-1020   M W    0262 NICHOLSON                        MARLEY S
+ 19     1  MEDP 4352 LAB     1  RAD DETECTION LAB      1.0  1130-0220     W    0004 NICHOLSON                        MARLEY S
+ 10     5  MEDP 7111         1  ADV MED IMAGING PHYS   3.0  1130-1250   M W                                          DEY J
+ 10     5  MEDP 7270         1  ADV RAD THER PHYSICS   3.0  1130-1250    T TH                                        FONTENOT J
+ 15        MEDP 7537         1  RAD INTERACT/TRNSPRT   3.0   330-0450   M W    0262 NICHOLSON                        NEWHAUSER W
+  9     6  MEDP 7995 SEM     1  SEMINAR                1.0  1230-0120       F  0262 NICHOLSON                        NEWHAUSER W

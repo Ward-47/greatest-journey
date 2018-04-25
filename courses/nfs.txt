@@ -1,0 +1,27 @@
+(F)    18  NFS  1014         1  FOOD THEORY & SKILLS   4.0   830-0920   M W F  0132 ALLEN                            MYHAND J
+  7    11  NFS  1014         2  FOOD THEORY & SKILLS   4.0   830-0920   M W F  0132 ALLEN                            MYHAND J
+ 46    29  NFS  1110         1  INTRO TO NUTRITION     3.0  1230-0120   M W F  0120 TUREAUD HALL                     BALL M
+ 48    52  NFS  1110         2  INTRO TO NUTRITION     3.0  1200-0120    T TH  0103 TUREAUD HALL                     DORE S
+ 14    31  NFS  2110         1  NUTRITION ASSESSMENT   3.0   130-0250    T TH  0206 WILLIAMS                         MILIOTO B
+ 10    32  NFS  2112         1  LIFECYCLE NUTRITION    3.0   730-0850    T TH  0109 COATES                           MYHAND J
+ 38    52  NFS  3000         1  FOOD SAFETY            3.0   930-1020   M W F  0206 TUREAUD HALL                     XU W
+ 19    31  NFS  3025         1  PROF DIETETICS         3.0  1030-1120   M W F  0210 WILLIAMS                         MCKINLEY E
+ 12    29  NFS  3110         1  NUTRITION COUNSELING   3.0  1030-1150    T TH  0119 J C MILLER                       MILIOTO B
+(F)    16  NFS  3119         1  QUANT FOODS PRODUCTI   4.0   900-1020    T TH  0200 TUREAUD HALL                     DORE S
+(F)    16  NFS  3119         2  QUANT FOODS PRODUCTI   4.0   900-1020    T TH  0200 TUREAUD HALL                     DORE S
+  3     7  NFS  3999 SEM     1  FDSC & TECH SEMINAR    1.0  1230-0120      TH                                        KING J
+  9     7  NFS  4021 SEM     2  TOPICS IN NUTRITION    1.0   830-0920     W
+(F)    17  NFS  4021 SEM     1  TOPICS IN NUTRITION    1.0  1030-1120     W                                          KEENAN M
+ 14     6  NFS  4060         1  FOOD CHEMISTRY         4.0  1030-1150    T TH  0210 TUREAUD HALL                     KING J
+ 22    18  NFS  4070         1  FOOD LAWS REGULATION   2.0   230-0420       F  0027 ALLEN                            ADHIKARI A
+ 13    10  NFS  4075         1  FOOD PRESERVATION      3.0   900-0950    T TH  0215 TUREAUD HALL                     SATHIVEL S
+  9    11  NFS  4095         1  SENSORY EVAL OF FOOD   4.0  1030-1120   M W F                                        PRINYAWIWATKU
+  3    22  NFS  4111         1  NUTRI & DISEASE I      4.0  1030-1150    T TH  0124 TUREAUD HALL                     BALL M
+  3    22  NFS  4111         2  NUTRI & DISEASE I      4.0  1030-1150    T TH  0124 TUREAUD HALL                     BALL M
+ 17     3  NFS  7002         1  TPCS IN MICRONUTRIEN   2.0  1000-1150    T                                           KEENAN M
+  9     1  NFS  7004         1  MOL & CLIN NUTR I      2.0   315-0435   M                                            WICKER L
+ 15     3  NFS  7012         1  FOOD NUTR & HLTH PR    3.0   430-0720N     TH  0200 TUREAUD HALL                     TUURI G
+  9     9  NFS  7022         1  CUR CONTR FOOD NUTR    3.0   430-0720N   T     0125 TUREAUD HALL                     TUURI G
+  9     1  NFS  7040         1  FLAVOR & COLORS FOOD   3.0   900-0950    T TH                                        XU Z
+  7     3  NFS  7050         1  FOOD PROTIEN BIOTECH   3.0   930-1020   M W F                                        LOSSO J
+ 12     4  NFS  7071 SEM     1  GR SEM NUTR & FDSC     1.0  1230-0120      TH                                        BOENEKE C

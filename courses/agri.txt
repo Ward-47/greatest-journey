@@ -1,0 +1,6 @@
+ 92    28  AGRI 1001         6  INTR TO AGRICULTURE    1.0   230-0320   M      0103 DESIGN BUILDING RES COLG-AGRICU  STAIR K
+ 43     7  AGRI 1001         1  INTR TO AGRICULTURE    1.0   330-0420    T     1212 PATRICK TAYLOR                   STAIR K
+ 46     4  AGRI 1001         2  INTR TO AGRICULTURE    1.0   330-0420    T     0210 WILLIAMS                         STAIR K
+ 47     3  AGRI 1001         3  INTR TO AGRICULTURE    1.0   330-0420     W    0218 COATES                           STAIR K
+ 54     6  AGRI 1001         4  INTR TO AGRICULTURE    1.0   330-0420     W    0109 TUREAUD HALL                     STAIR K
+ 17     3  AGRI 2200         1  AG IN THE BOOT         2.0   300-0350     W    0150 WOODIN HALL     PERMIS OF DEPT   MARTIN A

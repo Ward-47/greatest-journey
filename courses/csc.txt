@@ -1,0 +1,41 @@
+(F)    40  CSC  1240         1  STATS & GRAPH MATLB    3.0  1130-1220   M W    0152 COATES                           BRENER N
+ 27    21  CSC  1240         2  STATS & GRAPH MATLB    3.0  1130-1220   M W    0152 COATES                           BRENER N
+ 41     7  CSC  1240         3  STATS & GRAPH MATLB    3.0  1130-1220   M W    0152 COATES                           BRENER N
+ 47    43  CSC  1253         1  COMP SCI WITH C++      3.0  1030-1150    T TH  0206 TUREAUD HALL
+ 46    34  CSC  1253         2  COMP SCI WITH C++      3.0  1200-0120    T TH  0206 TUREAUD HALL                     DUNCAN W
+ 19    26  CSC  1254         1  COMP SCI 11 WITH C++   3.0  1030-1150    T TH  0218 TUREAUD HALL                     LAFIELD W
+  6    42  CSC  1350         1  COMP SCI I-MJRS        4.0   930-1020   M W F  0016 LOCKETT                          DUNCAN W
+ 39     9  CSC  1350         2  COMP SCI I-MJRS        4.0   930-1020   M W F  0016 LOCKETT                          DUNCAN W
+ 38    10  CSC  1350         3  COMP SCI I-MJRS        4.0   930-1020   M W F  0016 LOCKETT                          DUNCAN W
+ 44     4  CSC  1350         4  COMP SCI I-MJRS        4.0   930-1020   M W F  0016 LOCKETT                          DUNCAN W
+ 30    18  CSC  1350         5  COMP SCI I-MJRS        4.0   900-1020    T TH  0218 TUREAUD HALL                     KUNDU S
+ 18    22  CSC  1351         1  COMP SCI II-MJRS       4.0   900-1020    T TH  1221 PATRICK TAYLOR                   BRENER N
+ 26    14  CSC  1351         2  COMP SCI II-MJRS       4.0   900-1020    T TH  1221 PATRICK TAYLOR                   BRENER N
+ 76    74  CSC  2259         1  DISCRETE STRUCTURES    3.0  1200-0120    T TH  0009 LOCKETT                          TRIANTAPHYLLO
+  8    42  CSC  2262         1  NUMERICAL METHODS      3.0   300-0420    T TH  1236 PATRICK TAYLOR                   BRENER N
+(F)    20  CSC  2700         2  INTRO CYBRSCRTY 3CR    1-3   500-0620N  M W    0116 TUREAUD HALL                     CAPELLO H
+ 14     6  CSC  2700         1  CMPTVE PRGMG 1HR CR    1-3   600-0750N   T     1218 PATRICK TAYLOR                   TRAXLER I
+(F)    36  CSC  2730         1  DATA SCI & ANALYTICS   3.0  1030-1150    T TH  0117 TUREAUD HALL                     ZHANG J
+ 27    98  CSC  3102         1  ADV DATA STRUCTURES    3.0   900-1020    T TH  1200 PATRICK TAYLOR                   DUNCAN W
+ 46    14  CSC  3200         1  ETHICS IN COMPUTING    1.0  1030-1120     W    0102 TUREAUD HALL                     CARVER D
+ 31    34  CSC  3380         1  OBJ ORIENTED DESIGN    3.0   430-0550N   T TH  1240 PATRICK TAYLOR                   MUKHOPADHYAY
+ 46    42  CSC  3501         1  COMP ORGANIZATN/DSN    3.0   130-0250    T TH  1225 PATRICK TAYLOR                   LEE K
+ 37    63  CSC  4101         1  PROG LANGUAGES         3.0  1200-0120   M W    0016 LOCKETT                          MUKHOPADHYAY
+(F)    85  CSC  4103         1  OPERATING SYSTEMS      3.0   130-0250   M W    1225 PATRICK TAYLOR                   RICHARD G
+  4    71  CSC  4330         1  SOFTWARE SYST DEVEL    3.0   500-0620N  M W    1225 PATRICK TAYLOR                   MAHMOUD A
+ 11    34  CSC  4356         1  INTER COMP GRPHCS      3.0  1030-1150    T TH  0206 WILLIAMS                         YE J
+  9    76  CSC  4402         1  INTR DATABSE MGT SYS   3.0  1200-0120    T TH  1221 PATRICK TAYLOR                   CHEN J
+ 23    42  CSC  4444         1  ARTIFICIAL INTELLIG    3.0   330-0450   M W    1240 PATRICK TAYLOR                   CHEN J
+ 40    25  CSC  4501         1  COMPUTER NETWORKS      3.0  1030-1150   M W    1240 PATRICK TAYLOR                   PARK S
+ 25    10  CSC  4585         1  MULTICORE PROGRAMMG    3.0   500-0750N   T     0116 TUREAUD HALL                     BRANDT S
+(F)    30  CSC  4610         1  CLD SYSTMS & VRTLZN    3.0   430-0550N   T TH  0226 TUREAUD HALL                     WANG Q
+ 15    20  CSC  4700         1  PREDCTV DTA ANALYTC    3.0   130-0250    T TH  1212 PATRICK TAYLOR                   SUN M
+ 28     7  CSC  4890         1  INTR THEORY COMPUTAT   3.0   130-0250    T TH  1218 PATRICK TAYLOR                   BUSCH K
+ 28     2  CSC  7103         1  ADV OPERATING SYSTMS   3.0   500-0620N   T TH                                        CHEN F
+ 14    16  CSC  7300         1  ALGORTHM DSGN & ANLY   3.0   300-0420    T TH  1218 PATRICK TAYLOR                   KUNDU S
+ 26     4  CSC  7360         1  MEMORY FORENSICS       3.0  1000-1250   M
+ 31     9  CSC  7442         1  DATA MINING KNOW DEV   3.0  1030-1150   M W    0125 TUREAUD HALL                     TRIANTAPHYLLO
+  8     7  CSC  7443         1  SCI INFO VISUALIZTN    3.0  1200-0120    T TH  0225 TUREAUD HALL                     KARKI B
+ 15     5  CSC  7700         1  SOFT ENG MOBILE ERA    3.0  1030-1150   M W    1236 PATRICK TAYLOR                   MAHMOUD A
+ 13     2  CSC  7700         2  BIG DTA SYS APP DEV    3.0   130-0420   M
+ 14     6  CSC  7800 SEM     1  CSC RESEARCH SEMINAR   1.0  1230-0120     W                                          CARVER D

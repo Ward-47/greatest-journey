@@ -1,0 +1,7 @@
+ 14     6  CPLT 2201         1  INTRO WORLD LIT TRAD   3.0   930-1020   M W F  0019 ALLEN                            ROJAS J
+ 15     5  CPLT 2202         1  INT MODERN WORLD LIT   3.0  1200-0120    T TH  0134 LOCKETT                          O'DELL E
+  3     7  CPLT 7010 SEM     1  RES METH & BIBLIOGR    3.0   200-0320   M W                                          SIKES A
+  9     6  CPLT 7120 SEM     1  GLOBAL DICKENS         3.0   300-0550    T                                           WELTMAN S
+ 12     3  CPLT 7130 SEM     2  SEM IN DRAMA AFRICA    3.0  1030-1150    T TH  0169 COATES                           EUBA F
+  5     2  CPLT 7130 SEM     1  GEOG AMER LIT STUDIE   3.0   330-0620     W                                          YANG S
+ 13     2  CPLT 7140 SEM     1  COMIC TRV PARAETHNOG   3.0   400-0650   M                                            REGIS H

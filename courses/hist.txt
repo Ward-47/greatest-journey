@@ -1,0 +1,49 @@
+107    25  HIST 1001         5  WEST CIVIL TO 1500     3.0   930-1020   M W F  0152 COATES                           JOHNSON S
+ 71    97  HIST 1001         1  WEST CIVIL TO 1500     3.0   900-1020    T TH  0009 LOCKETT                          DIETZ M
+(F)    40  HIST 1001         2  WEST CIVIL TO 1500     3.0   900-1020    T TH  0253 HIMES                            HARDY J
+  9     1  HIST 1001         6  WEST CIVIL TO 1500     3.0   900-1020    T TH                       RES COLG-INFORM
+127    48  HIST 1001         3  WEST CIVIL TO 1500     3.0  1030-1150    T TH  0009 LOCKETT                          WOLFE J
+101    74  HIST 1001         4  WEST CIVIL TO 1500     3.0  1200-0120    T TH  0010 LOCKETT                          ROSS S
+  8    22  HIST 1002         1  HON: WES CIV TO 1500   3.0  1200-0120    T TH  0240 LOCKETT                          HARDY J
+108    67  HIST 1003         1  HIS WES CIVILIZATION   3.0  1030-1120   M W F  0009 LOCKETT                          STATER V
+158    17  HIST 1003         2  HIS WES CIVILIZATION   3.0  1230-0120   M W F  0009 LOCKETT                          VELDMAN M
+ 69    41  HIST 1005         1  WORLD HIST TO 1500     3.0  1030-1120   M W F  0241 HIMES                            WOLFE J
+139    36  HIST 1007         1  WLD HIST SINCE 1500    3.0  1200-0120    T TH  0005 LOCKETT                          COLE G
+ 36    24  HIST 2025         1  EARLY MODERN EUROPE    3.0   130-0220   M W F  0109 TUREAUD HALL                     TUTTLE L
+(F)    60  HIST 2030         1  WAR AND GENOCIDE       3.0  1030-1120   M W F  0109 TUREAUD HALL                     KARCH B
+ 13   110  HIST 2055         1  US TO 1865             3.0  1230-0120   M W F  0103 DESIGN BUILDING                  FOSTER G
+ 30        HIST 2055         6  US TO 1865             3.0  1230-0120   M W F                       RES COLG-MASS C
+ 70    85  HIST 2055         2  US TO 1865             3.0   900-1020    T TH  0010 LOCKETT                          SHEEHAN-DEAN
+125    50  HIST 2055         3  US TO 1865             3.0  1030-1150    T TH  0010 LOCKETT                          CARSON M
+  3     9  HIST 2056         1  HON: THE U. S.         3.0  1230-0120   M W F  0103 DESIGN BUILDING                  FOSTER G
+(F)   150  HIST 2057         2  THE US: 1865 TO PRES   3.0  1130-1220   M W F  0009 LOCKETT                          JACQUET C
+ 25        HIST 2057         3  THE US: 1865 TO PRES   3.0  1130-1220   M W F                       RES COLG-HSE
+109    66  HIST 2057         1  THE US: 1865 TO PRES   3.0  1230-0120   M W F  0010 LOCKETT                          SHINDO C
+ 37    23  HIST 2061         1  AFRICAN-AMERICAN HIS   3.0  1200-0120    T TH  0109 TUREAUD HALL                     ROBERTS K
+  6     9  HIST 2075         1  GERMAN CIVILIZATION    3.0   430-0550N   T TH  0132 LOCKETT                          LEDER H
+ 29    11  HIST 2100         1  INTRO TO ASIA          3.0  1030-1120   M W F  0253 HIMES                            ALAM A
+ 28    12  HIST 3001         1  HIST & SOC SCI I       1.0   300-0350    T     0237 LOCKETT                          GUTFREUND Z
+ 80    95  HIST 3071         1  LOUISIANA              3.0   130-0250    T TH  0006 LOCKETT                          LONG A
+(F)    20  HIST 3117 SEM     1  HIST GLOBALIZATION     3.0   300-0550    T     0103 COATES                           ZANASI M
+(F)    20  HIST 3118 SEM     2  FOOD IN HISTORY        3.0   300-0550   M      0034 ALLEN                            TUTTLE L
+  4    16  HIST 3118 SEM     1  ENERGY ENVIRO EUROPE   3.0   300-0550     W    0234 COATES                           KARCH B
+(F)    21  HIST 3119 SEM     3  HIST OF TIME TRAVEL    3.0  1200-0120    T TH  0241 LOCKETT                          BURSTEIN A
+(F)    20  HIST 3119 SEM     2  VOODOO RACE IN AMER    3.0   300-0420    T TH  0132 LOCKETT                          ROBERTS K
+(F)    40  HIST 4003         1  ROMAN REPUBLIC         3.0   300-0420    T TH  0138 LOCKETT                          ROSS S
+ 13    47  HIST 4044         1  STUART ENGLAND         3.0  1230-0120   M W F  0104 AUDUBON                          STATER V
+  3    37  HIST 4055         1  CIVIL WAR              3.0  1200-0120    T TH  0239 LOCKETT
+  4    36  HIST 4059         1  THE AMER TEENS & 20S   3.0   230-0320   M W F  0253 HIMES                            SHINDO C
+ 21    19  HIST 4092         1  CHINA SINCE 1600       3.0  1200-0120    T TH  0220 STUBBS                           ZANASI M
+ 27    13  HIST 4094         1  MODERN JAPAN           3.0   300-0420    T TH  0253 HIMES                            BARTON K
+  7     6  HIST 4125         1  HIST ANCIENT ISRAEL    3.0   300-0420    T TH  0237 COATES                           IRVINE S
+ 13    27  HIST 4197         2  CRIME COURTRM DRAMAS   3.0  1200-0120    T TH  0253 HIMES                            ISENBERG N
+ 34     6  HIST 4403         1  HIST & SOC SCI III     1.0   430-0520N   T     0253 HIMES                            GUTFREUND Z
+ 40        HIST 4404 SEM     1  SEM HIST & SOC SCI     3.0   430-0720N    W    0253 HIMES                            GUTFREUND Z
+  2    12  HIST 4505         1  RISE OF CHRISTIANITY   3.0   130-0250    T TH  0109 COATES                           STORIN B
+ 13     2  HIST 7904 SEM     1  AMER HISTOR/CRITICIS   3.0   300-0550   M                                            FOSTER G
+ 17     3  HIST 7908 SEM     1  INTRO HISTORICAL RES   3.0   300-0550     W                                          VELDMAN M
+ 17     3  HIST 7922 SEM     1  SEM EUR HIST TO 1650   3.0   300-0550    T                                           DIETZ M
+ 13     2  HIST 7951 SEM     1  READ SM AM HST 1607-   3.0   300-0550    T                                           ISENBERG N
+ 10     5  HIST 7956 SEM     1  READ SM AM HST 1865-   3.0   430-0720N   T                                           GUTFREUND Z
+ 14     1  HIST 7958 SEM     1  POLITICS OF MEMORY     3.0   300-0550      TH                                        BURSTEIN A
+ 14     1  HIST 7970 SEM     1  READ SM COMPARAT HIS   3.0   300-0550   M                                            ALAM A

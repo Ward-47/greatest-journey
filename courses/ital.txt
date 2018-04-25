@@ -1,0 +1,8 @@
+ 13    12  ITAL 1001         1  ELEMENTARY ITALIAN     4.0  1030-1120   MTWTH  0138 LOCKETT                          BONGIORNI K
+ 13    12  ITAL 1001         2  ELEMENTARY ITALIAN     4.0  1230-0120   MTWTH  0108 TUREAUD HALL                     MONROE K
+ 12    13  ITAL 1001         3  ELEMENTARY ITALIAN     4.0   130-0220   MTWTH  0237 LOCKETT                          MONROE K
+  2    18  ITAL 2101         1  INTERMEDIATE ITALIAN   3.0  1030-1120   M W F  0027 ALLEN                            MORSHAEUSER A
+ 16     4  ITAL 2101         2  INTERMEDIATE ITALIAN   3.0  1130-1220   M W F  0027 ALLEN                            MORSHAEUSER A
+  7     8  ITAL 2102         1  INTERMEDIATE ITALIAN   3.0  1030-1150    T TH  0128 ALLEN                            CHIRUMBOLO P
+  3    12  ITAL 2155         1  READINGS ITALIAN LIT   3.0  1200-0120    T TH  0128 ALLEN                            CHIRUMBOLO P
+  6     9  ITAL 3001         1  ITAL CULT/CIVILIZATN   3.0   900-1020    T TH  0119 LOCKETT                          BONGIORNI K

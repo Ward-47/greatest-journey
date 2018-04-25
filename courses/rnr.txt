@@ -1,0 +1,42 @@
+ 93    80  RNR  1001         1  NAT RESOURCE CONSERV   3.0   930-1020   M W F  0006 LOCKETT                          ERRERA R
+ 20        RNR  1001         2  NAT RESOURCE CONSERV   3.0   930-1020   M W F                       RES COLG-AGRICU
+  4    31  RNR  1010         1  INTRO NAT RES ECOL     4.0  1030-1120   M W F  0142 RENEWABLE NAT R                  KELSO W
+ 10     5  RNR  1071         1  HON INT NAT RES ECO    4.0  1030-1120   M W F  0142 RENEWABLE NAT R                  KELSO W
+(F)    25  RNR  2001         1  TREES & WDY PLANTS S   2.0  1200-1250    T     0206 RENEWABLE NAT R
+(F)    26  RNR  2001         2  TREES & WDY PLANTS S   2.0  1200-1250      TH  0206 RENEWABLE NAT R
+ 13    22  RNR  2031         1  PRINC WILDLIFE MGT     3.0   830-0920   M W F  0141 RENEWABLE NAT R                  RINGELMAN K
+  7    28  RNR  2039         1  INT RNR RESRC PLCY     3.0   930-1020   M W F  0141 RENEWABLE NAT R                  LABORDE L
+ 24    26  RNR  2061 SEM     3  INT MEDICINAL PLANTS   1-4  1030-1150    T TH  0141 RENEWABLE NAT R                  LIU Z
+ 11     4  RNR  2061 SEM     2  PRB NAT RESOURCE MGT   1-4  1230-0120     W    0142 RENEWABLE NAT R                  LABORDE L
+ 15        RNR  2070         1  HNRS ECOLOGY OF RNR    4.0   830-0920   M W F  0142 RENEWABLE NAT R                  STOUFFER P
+ 10     5  RNR  2071         1  HNRS INTRO RNR POLIC   4.0   930-1020   M W F  0141 RENEWABLE NAT R                  LABORDE L
+ 10        RNR  2072         1  HNRS PRINC WILDLIFE    4.0   830-0920   M W F  0141 RENEWABLE NAT R                  RINGELMAN K
+  3    32  RNR  2101         1  ECOL RENEW NAT RES     3.0   830-0920   M W F  0142 RENEWABLE NAT R                  STOUFFER P
+ 13    12  RNR  2102         1  NAT RES MEASUR & GIS   3.0   830-0920    T TH  0142 RENEWABLE NAT R                  CAO Q
+ 16     9  RNR  2102         2  NAT RES MEASUR & GIS   3.0   830-0920    T TH  0142 RENEWABLE NAT R                  CAO Q
+(F)    21  RNR  3004         1  FOR PHOTOGRAM, GPS,    3.0   830-0920    T TH  0214 RENEWABLE NAT R                  WOLCOTT M
+(F)    42  RNR  3105         1  FOREST BIOLOGY         2.0  1000-1150    T TH  0142 RENEWABLE NAT R                  DEAN T
+ 16     9  RNR  3106         1  TIMBER HARVESTING      2.0   130-0220      TH  0142 RENEWABLE NAT R
+ 18     2  RNR  4001 LAB     1  SILVICULTURE LAB       1.0   130-0420      TH  0230 RENEWABLE NAT R                  DEAN T
+(F)    44  RNR  4011         1  WILD MGT TECHNIQUES    4.0   700-0820   M W    0141 RENEWABLE NAT R CI-WRITTEN&VISU  COLLIER B
+ 10    15  RNR  4013         1  ECOL/MGT WETLND WILD   4.0  1230-0120   M W F  0230 RENEWABLE NAT R                  KING S
+(F)    14  RNR  4015         1  CONSERVATION BIOLOGY   4.0  1200-0120    T TH  0141 RENEWABLE NAT R                  KELSO W
+(F)    10  RNR  4015         2  CONSERVATION BIOLOGY   4.0  1200-0120    T TH  0141 RENEWABLE NAT R                  KELSO W
+(F)    10  RNR  4015         3  CONSERVATION BIOLOGY   4.0  1200-0120    T TH  0141 RENEWABLE NAT R                  KELSO W
+  8    32  RNR  4040         1  FISHERIES MANAGEMENT   3.0   830-0920   M W F  0230 RENEWABLE NAT R                  KELSO W
+ 11    14  RNR  4051         1  WILDLIFE HABITAT MGT   3.0   830-0920    T TH  0141 RENEWABLE NAT R                  LONG A
+ 30     5  RNR  4062 SEM     1  SAND CTY ALM           1-4  1230-0120     W    0142 RENEWABLE NAT R                  LABORDE L
+  3    22  RNR  4101         1  CAPSTONE NAT RES       4.0  1030-1120   M W F  0141 RENEWABLE NAT R CI-WRITTEN&SPOK  ERRERA R
+(F)    44  RNR  4107         1  HUM DIM NAT RES        3.0   930-1020   M W F  0142 RENEWABLE NAT R                  KALLER M
+ 15        RNR  4108         1  OUTREACH METH NATRS    3.0  1000-1120    T TH  0225 RENEWABLE NAT R                  DOZIER H
+  4    11  RNR  4145         1  ICHTHYOLOGY            4.0  1230-0120   M W    0141 RENEWABLE NAT R                  GREEN C
+  3    12  RNR  4145         2  ICHTHYOLOGY            4.0  1230-0120   M W    0141 RENEWABLE NAT R                  GREEN C
+ 20     5  RNR  4150         1  FOREST HYDROL SOILS    3.0  1000-1120    T TH  0230 RENEWABLE NAT R                  KEIM R
+ 12     3  RNR  4900         1  WATERSHED HYDROLOGY    3.0   130-0320     W    0214 RENEWABLE NAT R                  XU Y
+  3     7  RNR  4913         1  INT WILD POP DYNAM     3.0  1230-0120   M W F  0214 RENEWABLE NAT R                  COLLIER B
+ 14     2  RNR  7001         1  RESEARCH METHODOLOGY   3.0  1030-1120   M W F  0230 RENEWABLE NAT R                  KEIM R
+ 11     4  RNR  7011         1  MAMMALIAN ECOL/MGT     3.0   830-0920    T TH  0230 RENEWABLE NAT R
+  8     2  RNR  7013         1  WILDLIFE POPUL DYN     3.0  1230-0120   M W F  0214 RENEWABLE NAT R                  COLLIER B
+  1     4  RNR  7029 SEM     1  GIS                    1-4   830-0920    T TH  0214 RENEWABLE NAT R                  DE HOOP C
+  9     1  RNR  7029 SEM     3  POTAMOLOGY             1-4  1130-1220     W    0230 RENEWABLE NAT R                  XU Y
+ 19     1  RNR  7036         1  AD TP FOR BIOMET/MGT   3.0   800-0920   M W                                          KEIM R

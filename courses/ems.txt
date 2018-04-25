@@ -1,0 +1,6 @@
+(F)    13  EMS  1011         1  ENVIR TECH: PRSP ENV   3.0   900-1020    T TH  0134 M B STURGIS     CI-WRITTEN&SPOK  WALSH M
+  8        EMS  1011         2  ENVIR TECH: PRSP ENV   3.0   900-1020    T TH                       RES COLG-AGRICU
+  4     1  EMS  2051         1  SOIL SCIENCE           4.0   830-0920   M W F  0134 M B STURGIS
+  7     3  EMS  3045         1  SOIL CONSERVATION      2.0   230-0420   M      0134 M B STURGIS                      FULTZ L
+  1    19  EMS  3050         1  ENVIR REGULAT & COMP   3.0  1200-0120    T TH  0134 M B STURGIS                      WALSH M
+ 15        EMS  4040         1  ENV INSTR ANALYSIS     3.0   130-0420       F  0135 M B STURGIS                      WANG J

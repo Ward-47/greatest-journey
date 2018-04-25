@@ -1,0 +1,22 @@
+(F)    55  REL  1000         1  RELIGIONS OF WORLD     3.0  1130-1220   M W F  0220 COATES                           SMITH K
+(H)        REL  1000         2  RELIGIONS OF WORLD     3.0  1230-0120   M W F  0214 COATES
+(F)    55  REL  1000         3  RELIGIONS OF WORLD     3.0   130-0220   M W F  0209 COATES                           SMITH K
+(H)        REL  1000         4  RELIGIONS OF WORLD     3.0   230-0320   M W F  0220 COATES
+ 34    21  REL  1004         1  OLD TESTAMENT          3.0   730-0850    T TH  0209 COATES                           IRVINE S
+ 21    34  REL  1004         2  OLD TESTAMENT          3.0  1030-1150    T TH  0209 COATES                           ISBELL C
+ 18    37  REL  1005         2  NEW TESTAMENT          3.0  1030-1120   M W F  0209 COATES                           BURKETT D
+ 82    50  REL  1005         1  NEW TESTAMENT          3.0   300-0420    T TH  0152 COATES                           STORIN B
+  5    20  REL  2025         1  AFRICAN AMERICAN REL   3.0  1200-0120    T TH  0218 COATES                           KELLY H
+ 39    16  REL  2027         1  ASIAN RELIGIONS        3.0  1200-0120    T TH  0220 COATES                           ARAI P
+  7    21  REL  2028         1  PHIL OF RELIGION       3.0   230-0320   M W F  0209 COATES                           SMITH K
+ 41    14  REL  2029         1  JUDAISM/CHRIST/ISLAM   3.0   930-1020   M W F  0209 COATES                           YADLAPATI M
+ 28     7  REL  2029         2  JUDAISM/CHRIST/ISLAM   3.0  1030-1120   M W F  0111 COATES          RES COLG-GLOBAL  YADLAPATI M
+ 30    25  REL  2033         1  AMERICAN RELIGIONS     3.0   900-1020    T TH  0209 COATES                           PASQUIER M
+  3    27  REL  3033         1  NATIVE AM RELIGIONS    3.0  1230-0120   M W F  0202 COATES                           SMITH K
+  8     7  REL  3090         1  COMPARTIVE MYTHOL      3.0   130-0250    T TH  0234 COATES                           WATANABE A
+ 28     2  REL  3104         1  HEBREW PROPHETS        3.0   130-0250    T TH  0103 COATES                           ISBELL C
+ 24     6  REL  4010         1  BLACK RELIGION &FILM   3.0   300-0550   M      0234 COATES                           FINLEY S
+ 22     8  REL  4035         1  WOMEN & BUDDHISM       3.0  1030-1150    T TH  0237 COATES                           ARAI P
+  6     6  REL  4125         1  HIST ANCIENT ISRAEL    3.0   300-0420    T TH  0237 COATES                           IRVINE S
+  4    11  REL  4236         1  APOCALYPTIC LIT        3.0   600-0850N    W    0117 TUREAUD HALL                     BURKETT D
+(F)    16  REL  4505         1  RISE OF CHRISTIANITY   3.0   130-0250    T TH  0109 COATES                           STORIN B

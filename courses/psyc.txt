@@ -1,0 +1,58 @@
+ 94   216  PSYC 2000         3  INTR TO PSYC           3.0  1030-1120   M W F  0130 HOWE RUSSELL E
+  9     1  PSYC 2000         6  INTR TO PSYC           3.0  1030-1120   M W F                       RES COLG-INFORM
+  9     1  PSYC 2000         8  INTR TO PSYC           3.0  1030-1120   M W F                       RES COLG-VISUAL
+ 15     5  PSYC 2000         9  INTR TO PSYC           3.0  1030-1120   M W F                       RES COLG-HSE
+214    96  PSYC 2000         2  INTR TO PSYC           3.0   730-0850    T TH  0100 DODSON                           GREENING S
+556   179  PSYC 2000         1  INTR TO PSYC           3.0  1200-0120    T TH  0101 GYM AUDITORIUM                   COHEN A
+ 10        PSYC 2000         4  INTR TO PSYC           3.0  1200-0120    T TH                       RES COLG-VISUAL
+ 37     3  PSYC 2000         5  INTR TO PSYC           3.0  1200-0120    T TH                       RES COLG-HSE
+ 13     2  PSYC 2000         7  INTR TO PSYC           3.0  1200-0120    T TH                       RES COLG-INFORM
+(F)    30  PSYC 2001         1  HON- INTR PSYC         3.0   930-1020   M W F  0203 WOODIN HALL     CI-WRITTEN&SPOK  ELLIOTT E
+(F)    25  PSYC 2016         1  STAT FOR BEH SCI       4.0   130-0250    T TH  E130 HOWE RUSSELL E  MAJORS ONLY      MCDONALD J
+  1    24  PSYC 2016         2  STAT FOR BEH SCI       4.0   130-0250    T TH  E130 HOWE RUSSELL E  MAJORS ONLY      MCDONALD J
+(F)    25  PSYC 2016         3  STAT FOR BEH SCI       4.0   130-0250    T TH  E130 HOWE RUSSELL E  MAJORS ONLY      MCDONALD J
+  3    22  PSYC 2016         4  STAT FOR BEH SCI       4.0   130-0250    T TH  E130 HOWE RUSSELL E  MAJORS ONLY      MCDONALD J
+(F)    25  PSYC 2016         5  STAT FOR BEH SCI       4.0   130-0250    T TH  E130 HOWE RUSSELL E  MAJORS ONLY      MCDONALD J
+(F)    20  PSYC 2017         1  ELEM EXPERMTL PSYC     4.0  1030-1150    T TH  E137 HOWE RUSSELL E  MAJORS ONLY      ZHANG D
+  5    15  PSYC 2017         2  ELEM EXPERMTL PSYC     4.0  1030-1150    T TH  E137 HOWE RUSSELL E  MAJORS ONLY      ZHANG D
+(F)    20  PSYC 2017         3  ELEM EXPERMTL PSYC     4.0  1030-1150    T TH  E137 HOWE RUSSELL E  MAJORS ONLY      ZHANG D
+(F)    20  PSYC 2017         4  ELEM EXPERMTL PSYC     4.0  1030-1150    T TH  E137 HOWE RUSSELL E  MAJORS ONLY      ZHANG D
+ 10    10  PSYC 2017         5  ELEM EXPERMTL PSYC     4.0  1030-1150    T TH  E137 HOWE RUSSELL E  MAJORS ONLY      ZHANG D
+ 19    71  PSYC 2040         1  SOCIAL PSYCHOLOGY      3.0   130-0220   M W F  0145 COATES
+ 96    54  PSYC 2060         1  EDUCATIONAL PSYC       3.0   600-0850N    W    0010 LOCKETT                          DOMANGUE T
+ 32   168  PSYC 2070         1  DEVELOP PSYC LIFE SP   3.0   430-0720N   T     0100 DODSON                           ERWIN M
+(F)    40  PSYC 2076         1  CHILD PSYCHOLOGY       3.0  1200-0120    T TH  0031 ALLEN
+  4    36  PSYC 2076         2  CHILD PSYCHOLOGY       3.0   130-0250    T TH  0023 ALLEN
+ 52    28  PSYC 2078         1  ADOLESCENT PSYC        3.0   600-0850N   T     0155 COATES                           KNAPP J
+ 39    21  PSYC 3030         2  COGNITION              3.0   130-0220   M W F  0155 COATES
+ 32    28  PSYC 3030         1  COGNITION              3.0  1030-1150    T TH  0228 COATES                           LUCAS H
+ 13    47  PSYC 3050         2  INTR PERS INDUS PSYC   3.0   130-0250    T TH  0228 COATES
+ 32    18  PSYC 3050         1  INTR PERS INDUS PSYC   3.0   600-0850N     TH  0145 COATES                           ADAIR F
+(F)   110  PSYC 3082         1  INTR ABNORMAL PSYC     3.0   900-1020    T TH  0139 ALLEN                            TUCKER R
+232   118  PSYC 3082         2  INTR ABNORMAL PSYC     3.0   600-0850N    W    0002 LOCKETT                          GROS B
+ 36    64  PSYC 3083         1  PSYCHOLOGICAL COUNS    3.0   600-0850N  M      0005 LOCKETT                          GUSTIN Q
+ 39    81  PSYC 4008         1  HIST MODERN PSYC       3.0   130-0250    T TH  0102 ALLEN           MAJORS ONLY      BAUMEISTER A
+ 18    42  PSYC 4031         1  SENS & PERCEP PROCSS   3.0  1030-1150    T TH  0155 COATES                           BECK M
+ 30    20  PSYC 4032         1  PSYC OF LEARNING       3.0   830-0920   M W F  0054 ALLEN                            COX C
+(F)    50  PSYC 4032         2  PSYC OF LEARNING       3.0   930-1020   M W F  0054 ALLEN                            COX C
+(F)    60  PSYC 4033         1  PSYC MEMORY & FORGET   3.0   130-0220   M W F  0102 ALLEN                            ELLIOTT E
+(F)    60  PSYC 4035         1  DRUGS BRAIN BEHAVIOR   3.0   930-1020   M W F  0212 COATES                           SOTO P
+(F)    60  PSYC 4035         2  DRUGS BRAIN BEHAVIOR   3.0  1030-1120   M W F  0155 COATES                           SOTO P
+(F)    60  PSYC 4039         1  MADNESS & MEDICINE     3.0  1030-1150    T TH  0139 ALLEN                            BAUMEISTER A
+ 37    23  PSYC 4041         1  COGNITIVE NEURO        3.0  1200-0120    T TH  0228 COATES                           GREENING S
+ 24    56  PSYC 4070         1  DEVELOPMENTAL PSYC     3.0   600-0850N  M      0102 ALLEN                            ROSENTHAL G
+(F)    60  PSYC 4070         2  DEVELOPMENTAL PSYC     3.0   130-0250    T TH  0109 NICHOLSON                        CHERRY K
+(F)    60  PSYC 4072         1  DEV PSYC ADULT/AGING   3.0  1200-0120    T TH  0109 NICHOLSON                        CHERRY K
+(F)    60  PSYC 4080         1  APPL BEHAVIOR ANALYS   3.0  1030-1150    T TH  0054 ALLEN                            DONALDSON J
+(F)    10  PSYC 4111         1  INTERMED STATISTICS    3.0  1200-0120    T TH  0023 ALLEN           MAJORS ONLY      HICKS J
+(F)    60  PSYC 4176         1  ADV CHILD PSYC         3.0  1230-0120   M W F  0105 TUREAUD HALL                     MATSON J
+  9    16  PSYC 7040 SEM     1  SOCIAL BASE BEHAVIOR   3.0   900-1150      TH                       MAJORS ONLY
+ 22     3  PSYC 7125         1  PSYC ASSESSMENT I      3.0  1200-0250   M      0137 LOCKETT         MAJORS ONLY      GRESHAM F
+ 14    12  PSYC 7171 SEM     1  DEV DSORD/PSYPATH CH   3.0   900-1150   M                           MAJORS ONLY      FRICK P
+(F)    10  PSYC 7625 CLI     1  ASSESS I PRACTICUM     3.0   400-0650      TH                       MAJORS ONLY      TUCKER R
+  1    19  PSYC 7925         1  PSYC ASSESSMENT II     3.0   130-0420   M      0267 WOODIN HALL     MAJORS ONLY      CALAMIA M
+ 13    17  PSYC 7929         1  CULT DIV COUNS/THRPY   3.0   200-0450     W    0135 LOCKETT         MAJORS ONLY      LONG A
+ 10     5  PSYC 7938 SEM     1  SEM: EXPERIM PSYCH     3.0   300-0550     W                         MAJORS ONLY      LUCAS H
+ 15    10  PSYC 7946 SEM     1  THEORY BEH ANALYSIS    3.0   300-0550      TH                       MAJORS ONLY      DONALDSON J
+ 12     3  PSYC 7959 SEM     1  CURR PROB IND PSYC     3.0   930-1220   M                           MAJORS ONLY      ZHANG D
+ 18     2  PSYC 7982         1  ADV PSYCHOPATHOLOGY    3.0   900-1150     W                         MAJORS ONLY      COHEN A

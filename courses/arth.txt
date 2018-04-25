@@ -1,0 +1,13 @@
+207    53  ARTH 1440         1  HISTOR SURVEY ARTS     3.0  1030-1150    T TH  0143 COATES                           GEYMONAT L
+198    52  ARTH 1441         1  HISTOR SURVEY ARTS     3.0  1130-1220   M W F  0143 COATES                           SPIETH D
+ 10        ARTH 1441         2  HISTOR SURVEY ARTS     3.0  1130-1220   M W F                       RES COLG-INFORM
+ 33    17  ARTH 2411         1  SURVEY OF ASIAN ART    3.0   130-0220   M W F                                        MA W
+ 29    21  ARTH 2469         1  ITAL RENAISSANCE ART   3.0  1030-1150    T TH  0201 DESIGN BUILDING                  SIFFORD E
+ 25    25  ARTH 4409         1  EARLY GREEK ART        3.0   130-0250    T TH  0201 DESIGN BUILDING
+ 33    17  ARTH 4412         1  GOTHIC ART             3.0  1200-0120    T TH  0201 DESIGN BUILDING                  GEYMONAT L
+(F)    14  ARTH 4420         1  GLOBAL RENAISSANCE     3.0   300-0550    T     0201 DESIGN BUILDING                  SIFFORD E
+ 29    21  ARTH 4442         1  JAPANESE ART           3.0  1230-0120   M W F  0201 DESIGN BUILDING                  MA W
+ 28    22  ARTH 4451         1  20TH CEN EUROP ART     3.0   930-1020   M W F  0201 DESIGN BUILDING CI-WRITTEN&SPOK  SPIETH D
+ 50     5  ARTH 4469         1  ART AM STH: 1580-186   3.0   330-0620     W    0201 DESIGN BUILDING                  KHEEL C
+  2     3  ARTH 7410 SEM     1  METHODS COLLOQUIUM     1.0   430-0520N     TH  0201 DESIGN BUILDING                  GEYMONAT L
+ 15     5  ARTH 7441 SEM     1  GLOBAL RENAISSANCE     3.0   300-0550    T                                           SIFFORD E

@@ -1,0 +1,54 @@
+ 89   104  CE   2200         1  FLUID MECHANICS        3.0   130-0220   M W F  0006 LOCKETT                          WILLSON C
+ 15    10  CE   2250 LAB     1  FLUID MECH LAB         1.0   230-0520   M      0101 TUREAUD HALL
+(F)    25  CE   2250 LAB     2  FLUID MECH LAB         1.0   230-0520     W    0100 TUREAUD HALL
+(F)    25  CE   2250 LAB     4  FLUID MECH LAB         1.0   300-0550      TH  0100 TUREAUD HALL
+(F)    25  CE   2250 LAB     3  FLUID MECH LAB         1.0  1230-0320       F  0100 TUREAUD HALL
+ 76    73  CE   2450         1  STATICS                3.0   930-1020   M W F  1200 PATRICK TAYLOR                   EL KHOLY K
+ 82    67  CE   2450         2  STATICS                3.0  1030-1120   M W F  1200 PATRICK TAYLOR                   EL KHOLY K
+ 68    81  CE   2450         3  STATICS                3.0  1130-1220   M W F  1200 PATRICK TAYLOR                   EL KHOLY K
+ 46    54  CE   2450         4  STATICS                3.0   130-0250    T TH  0103 TUREAUD HALL                     EL KHOLY K
+ 21    99  CE   2460         1  DYNAMICS & VIBRATION   3.0  1030-1120   M W F  1263 PATRICK TAYLOR                   MOORTHY S
+ 68    42  CE   2700 LAB     1  INTRO CIVIL ENGR       1.0   130-0420       F  0241 HIMES                            AMOROSO S
+ 38    62  CE   3300         1  GEOTECHNICAL ENGR I    3.0   300-0420   M W    0204 TUREAUD HALL                     CHEN S
+(F)    25  CE   3350 LAB     1  GEOTECH ENGR LAB I     1.0   300-0550     W    0101 TUREAUD HALL
+(F)    25  CE   3350 LAB     2  GEOTECH ENGR LAB I     1.0  1230-0320       F  0101 TUREAUD HALL
+104    86  CE   3400         1  MECHNCS OF MATERIALS   3.0   830-0920   M W F  0005 LOCKETT                          MOORTHY S
+ 89   100  CE   3400         2  MECHNCS OF MATERIALS   3.0   900-1020    T TH  0005 LOCKETT                          MOORTHY S
+(F)    25  CE   3410 LAB     1  MECHNCS OF MATLS LAB   1.0   300-0550   M      0108 TUREAUD HALL
+(F)    25  CE   3410 LAB     2  MECHNCS OF MATLS LAB   1.0   330-0620      TH  0108 TUREAUD HALL
+ 13    77  CE   3415         1  STRUCTRL ANALYSIS I    3.0   130-0250    T TH  0206 TUREAUD HALL                     SUN C
+ 13    17  CE   3500         1  PLANE SURV & MEASURE   3.0  1100-1150    T TH  1221 PATRICK TAYLOR                   MUGNIER C
+ 13    17  CE   3500         2  PLANE SURV & MEASURE   3.0  1100-1150    T TH  1221 PATRICK TAYLOR                   MUGNIER C
+(F)    30  CE   3500         3  PLANE SURV & MEASURE   3.0  1100-1150    T TH  1221 PATRICK TAYLOR                   MUGNIER C
+ 37    63  CE   3600         1  PRINC HWY/TRAFC ENGR   3.0  1030-1150    T TH  0241 HIMES                            WOLSHON P
+(F)    25  CE   3700         1  ENGINEERING MAT LAB    1.0   430-0520N  M      1200 PATRICK TAYLOR                   MOHAMMAD L
+  8    13  CE   3700         2  ENGINEERING MAT LAB    1.0   430-0520N  M      1200 PATRICK TAYLOR                   MOHAMMAD L
+ 14     7  CE   3700         3  ENGINEERING MAT LAB    1.0   430-0520N  M      1200 PATRICK TAYLOR                   MOHAMMAD L
+ 12     9  CE   3700         4  ENGINEERING MAT LAB    1.0   430-0520N  M      1200 PATRICK TAYLOR                   MOHAMMAD L
+ 17   176  CE   4200         1  HYDROLOGY              3.0   900-1020    T TH  0006 LOCKETT                          TSAI F
+(F)    60  CE   4300         1  GEOTECHNICAL ENGR II   3.0   300-0420   M W    0102 TUREAUD HALL
+ 32    18  CE   4320         1  COASTAL ENGINEERING    3.0   130-0250    T TH  1236 PATRICK TAYLOR                   OZDEMIR C
+  2    78  CE   4410         1  PRIN REINFORCED CONC   3.0   130-0250    T TH  1221 PATRICK TAYLOR                   OKEIL A
+ 18    12  CE   4420         1  PPLE PRESTR CONCRETE   3.0   130-0250   M W    1216 PATRICK TAYLOR                   CAI C
+ 24    16  CE   4430         1  STRUCTURAL ENGR        3.0   300-0550    T TH  0127 TUREAUD HALL                     BARBATO M
+(F)    30  CE   4435         1  INDETERM STRUCT ANAL   3.0   500-0620N  M W    0112 TUREAUD HALL    CI-SPOKEN&TECH   ALY A
+  9    11  CE   4440         1  ADV MCHNCS OF MATRLS   3.0   130-0250    T TH  1216 PATRICK TAYLOR                   MOORTHY S
+  1    29  CE   4500         1  GEODETIC PHOTO SUR     3.0   500-0650N  M      0117 TUREAUD HALL                     MUGNIER C
+ 15    15  CE   4520         1  ADVANCED SURVEYING     3.0   500-0650N   T     0117 TUREAUD HALL                     MUGNIER C
+  5    48  CE   4670         1  FUND OF PAVEMENT DES   3.0  1030-1150    T TH  1240 PATRICK TAYLOR                   ELSEIFI M
+(F)   110  CE   4750         1  PRF ISS CONC DESN CE   2.0   830-1020   M      0241 HIMES                            WILLIAMS M
+ 28    32  CE   4760         1  CIVIL ENGR DESIGN      3.0   300-0450    T     0109 TUREAUD HALL
+ 28     2  CE   4780         1  COASTAL GEOTECHNICS    3.0   300-0420   M W    1236 PATRICK TAYLOR                   JAFARI N
+ 25        CE   7105         1  ADV TOP WATER QUAL     3.0   900-1020    T TH  1216 PATRICK TAYLOR
+ 14     6  CE   7200         1  TIDES AND SURGES       3.0  1030-1150    T TH                                        HAGEN S
+ 19     1  CE   7275         1  MOD GROUNDWATER MGMT   3.0   300-0420    T TH                                        TSAI F
+ 18     2  CE   7280         1  MODEL PHYS HYDROLOGY   3.0   900-1020   M W    0112 TUREAUD HALL                     DENG Z
+ 19     1  CE   7310         1  ADV GEOTECHN ENGR II   3.0   900-1020   M W    1216 PATRICK TAYLOR                   JAFARI N
+ 20        CE   7340         1  TH/PR GEOTEC LAB EXP   3.0   100-0250    T                                           ABU-FARSAKH M
+ 12     8  CE   7405         1  STATIC INDET STRCTS    3.0   900-1020    T TH  0226 TUREAUD HALL                     OKEIL A
+ 19     1  CE   7430         1  STRUC DES DYN LOADS    3.0  1030-1150    T TH  0225 TUREAUD HALL                     SUN C
+ 18     2  CE   7475         1  SOLID MECHANICS        3.0   900-1020   M W    0225 TUREAUD HALL                     VOYIADJIS G
+ 11     4  CE   7615         1  ADV HWY DESN/TR SFTY   3.0   200-0320    T TH  0116 TUREAUD HALL
+  6     4  CE   7640         1  URBAN TRANSPORT POL/   3.0  1030-1120   M W                                          WILMOT C
+ 20        CE   7701 RES     1  PAVE EVAL & REHAB      3.0   900-1020    T TH                                        MOHAMMAD L
+ 71    19  CE   7750 SEM     1  SEMINAR                1.0   330-0420     W    0105 TUREAUD HALL                     OZDEMIR C

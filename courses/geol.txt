@@ -1,0 +1,43 @@
+141   194  GEOL 1001         1  GEN GEOL PHYSICAL      3.0  1230-0120   M W F  0130 HOWE RUSSELL E                   WALIMUNI DEVA
+ 20        GEOL 1001         3  GEN GEOL PHYSICAL      3.0  1230-0120   M W F                       RES COLG-BUSINE
+315    41  GEOL 1001         2  GEN GEOL PHYSICAL      3.0   730-0850    T TH  0130 HOWE RUSSELL E                   ELLWOOD B
+(H)        GEOL 1001         4  GEN GEOL PHYSICAL      3.0  1200-0120    T TH  0244 LOCKETT
+155   201  GEOL 1003         1  GEN GEOL HISTORICAL    3.0   900-1020    T TH  0130 HOWE RUSSELL E                   LUTHER A
+ 10    15  GEOL 1201         1  PRIN GEOLOGY I         4.0   130-0250    T TH  E207 HOWE RUSSELL E  CI-SPOKEN&VISUA  LUTHER A
+ 15     2  GEOL 1202         1  PRIN GEOLOGY II        4.0  1030-1150    T TH  E202 HOWE RUSSELL E                   BAO H
+ 17     3  GEOL 1601 LAB     9  PHYSICAL GEOL LAB      1.0   730-1020   M      E213 HOWE RUSSELL E                   LUTHER A
+ 17     3  GEOL 1601 LAB     2  PHYSICAL GEOL LAB      1.0  1030-0120   M      E213 HOWE RUSSELL E                   LUTHER A
+  8    12  GEOL 1601 LAB    10  PHYSICAL GEOL LAB      1.0   130-0420   M      E213 HOWE RUSSELL E                   LUTHER A
+ 13     7  GEOL 1601 LAB    11  PHYSICAL GEOL LAB      1.0   430-0720N  M      E213 HOWE RUSSELL E                   LUTHER A
+ 14     6  GEOL 1601 LAB     1  PHYSICAL GEOL LAB      1.0   730-1020    T     E213 HOWE RUSSELL E                   LUTHER A
+  6    14  GEOL 1601 LAB    12  PHYSICAL GEOL LAB      1.0  1030-0120    T     E213 HOWE RUSSELL E                   LUTHER A
+  7    13  GEOL 1601 LAB     3  PHYSICAL GEOL LAB      1.0   130-0420    T     E213 HOWE RUSSELL E                   LUTHER A
+ 14     6  GEOL 1601 LAB     4  PHYSICAL GEOL LAB      1.0   430-0720N   T     E213 HOWE RUSSELL E                   LUTHER A
+ 18     2  GEOL 1601 LAB     5  PHYSICAL GEOL LAB      1.0   730-1020     W    E213 HOWE RUSSELL E                   LUTHER A
+ 19     1  GEOL 1601 LAB     6  PHYSICAL GEOL LAB      1.0  1030-0120     W    E213 HOWE RUSSELL E                   LUTHER A
+  8    12  GEOL 1601 LAB     7  PHYSICAL GEOL LAB      1.0   130-0420     W    E213 HOWE RUSSELL E                   LUTHER A
+ 16     4  GEOL 1601 LAB     8  PHYSICAL GEOL LAB      1.0   430-0720N    W    E213 HOWE RUSSELL E                   LUTHER A
+ 16     6  GEOL 1602 LAB     1  HISTORICAL GEOL LAB    1.0   730-1020   M      E208 HOWE RUSSELL E                   LUTHER A
+  8    14  GEOL 1602 LAB     2  HISTORICAL GEOL LAB    1.0  1030-0120   M      E208 HOWE RUSSELL E                   LUTHER A
+ 11    11  GEOL 3032         1  SED & DEP ENVS         4.0   900-1020    T TH  E207 HOWE RUSSELL E                   WILSON C
+ 12    10  GEOL 3041         1  IG MET PETROLOGY       4.0  1030-1150    T TH  E207 HOWE RUSSELL E  CI-WRITTEN&SPOK  HENRY D
+ 15     5  GEOL 4002         1  COMP PROG & DATA ANA   3.0  1030-1150    T TH  0347 HOWE RUSSELL E                   WANG J
+ 12        GEOL 4012         1  INTRO MICROPALEONTOL   3.0  1230-0220   M      0347 HOWE RUSSELL E  CI-WRITTEN&SPOK  BART S
+ 13     7  GEOL 4035         1  ADV SEDIMENTOLOGY      3.0   300-0420    T TH  0347 HOWE RUSSELL E                   ZHUANG G
+ 12     8  GEOL 4043         1  EARTH MAT & ENVIRONM   3.0   900-1020    T TH  0347 HOWE RUSSELL E                   DUTROW B
+ 10    20  GEOL 4044         1  PETROLEUM GEOLOGY      3.0   430-0550N  MT     E207 HOWE RUSSELL E  CI-WRITTEN&SPOK  CLIFT P
+  8     9  GEOL 4068         1  REFLECT SEISMOLOGY     3.0   730-0920   M      E207 HOWE RUSSELL E  CI-VISUAL&TECH   LORENZO J
+(F)    15  GEOL 4081         1  CHEM OCEANOGRAPHY      3.0  1200-0120    T TH  0116 TUREAUD HALL    CI-WRITTEN&SPOK  MAITI K
+  5    10  GEOL 4182         1  PHYSICAL HYDROGEOLOG   3.0   730-0850    T TH  E207 HOWE RUSSELL E  CI-WRITTEN&VISU  WICKS C
+ 13     7  GEOL 7061         1  SEQUENCE STRATIGRAPH   3.0   930-1220       F  E207 HOWE RUSSELL E                   BART P
+ 20        GEOL 7900         2  SPEC TOPICS IN GEOL    3.0   130-0250    T TH  0347 HOWE RUSSELL E                   LUTTRELL K
+ 22     8  GEOL 7921 SEM     1  G&G SEMINAR            1.0   330-0420       F                                        BART P
+ 97     2  GEOL 8000 RES     1  THESIS RESEARCH        1-12 1200-0120   M                                            HERRMANN A
+  4     1  GEOL 8000 RES     3  THESIS RESEARCH        1-12  330-0450    T TH                                        DUTROW B
+ 11     1  GEOL 8000 RES     7  THESIS RESEARCH        1-12  730-0850       F                                        LORENZO J
+ 12        GEOL 9000 RES    14  DISSERTATION RES       1-12  230-0420   M W                                          WANG J
+ 98     1  GEOL 9000 RES     1  DISSERTATION RES       1-12 1030-1150   M                                            HERRMANN A
+ 10     2  GEOL 9000 RES    12  DISSERTATION RES       1-12 1030-1150      TH                                        WICKS C
+ 11     1  GEOL 9000 RES     7  DISSERTATION RES       1-12  730-0850       F                                        LORENZO J
+ 29     1  GEOL 4107         1  INTRO TO SEISMOLOGY    3.0   930-1220   M W    0347 HOWE RUSSELL E                   PERSAUD P
+ 19     1  GEOL 7900         1  SPEC TOPICS IN GEOL    3.0   930-1220   M W    0347 HOWE RUSSELL E                   FORTE A

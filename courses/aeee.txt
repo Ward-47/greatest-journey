@@ -1,0 +1,8 @@
+ 14     6  AEEE 2001         1  FNDTNS OF AGEXED       3.0  1100-1250    T     0012 FRANCIONI                        ARCEMONT L
+ 19     6  AEEE 4011         1  COMMUN AGEXED          3.0   300-0550     W    0134 ALLEN                            BLANCHARD T
+ 29     1  AEEE 4027         1  YOUTH ISSUES           3.0   430-0720N    W    0132 LOCKETT                          JONES K
+ 20     5  AEEE 4101         1  INST DESIGN AGEXED     3.0   130-0250   M W    0019 ALLEN                            BLACKBURN J
+ 18     7  AEEE 4102         1  TEACH MTHD AGEXED      3.0  1100-1220    T TH  0108 NICHOLSON                        STAIR K
+ 12     3  AEEE 7016         1  HIST & PHIL AEEE       3.0   430-0720N    W    0120 PRESCOTT                         BLACKBURN J
+ 14    11  AEEE 7122         1  PROG DEVEL AGEXED      3.0   130-0420    T     0125 TUREAUD HALL    PERMIS OF INST   CATER M
+ 23     2  AEEE 7909         1  INTRP REPT RES RESLT   3.0   430-0720N  M      0218 STUBBS                           CATER M

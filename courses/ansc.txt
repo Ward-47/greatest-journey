@@ -1,0 +1,24 @@
+ 41    39  ANSC 1011         1  INTRO TO ANML SCIENC   3.0   830-0920   M W F  0010 LOCKETT                          WILLIAMS C
+ 26    14  ANSC 1011         2  INTRO TO ANML SCIENC   3.0   830-0920   M W F                       RES COLG-AGRICU
+(F)    19  ANSC 2031         1  EQUINE MANAGEMENT      2.0   130-0220   M      0100 TUREAUD HALL    PERMIS OF DEPT   WALKER N
+  3    27  ANSC 2033         1  LIVE ANI CARC EVAL     2.0   130-0220    T     0119 TUREAUD HALL                     PAGE T
+ 11     9  ANSC 2040 CLI     1  JUDGING DAIRY CATTLE   2.0   130-0420    T     0101 TUREAUD HALL                     HUTCHISON C
+ 10    19  ANSC 2042 LAB     1  TECH JDG/EVAL PL/PRD   2.0   230-0420    T TH  0119 TUREAUD HALL                     INGRAM D
+ 12    48  ANSC 2050         1  ANIMAL PRACTICES       2.0   900-0950    T TH  0102 TUREAUD HALL    PERMIS OF DEPT   WILLIAMS M
+  3    17  ANSC 2051 LAB     1  LARGE FARM ANIM LAB    1.0  1230-0320     W                         PERMIS OF DEPT   BRAUD T
+ 11    64  ANSC 2060         1  COMP ANIMAL MGT        3.0  1030-1120   M W F  0120 TUREAUD HALL                     RITCHIE J
+ 12    58  ANSC 2075         1  MILK AND DAIRY FOODS   3.0  1030-1150    T TH  0120 TUREAUD HALL                     ARYANA K
+  1    19  ANSC 3053         1  MEATS                  3.0   800-0950    T     0129 ALLEN                            MCMILLIN K
+ 20     5  ANSC 3053         2  MEATS                  3.0   800-0950    T     0129 ALLEN                            MCMILLIN K
+ 12    28  ANSC 3060         1  COMP ANIM HLTH & DIS   3.0  1130-1220   M W F  0119 TUREAUD HALL                     RITCHIE J
+ 13    32  ANSC 3070         1  SM ANI ANAT & PHYSIO   3.0   930-1020   M W F  0109 TUREAUD HALL                     RITCHIE J
+  4    26  ANSC 4005         1  ONE HEALTH             3.0   900-1020    T TH                                        COULON D
+  8    54  ANSC 4009         1  ANIMAL NUTRITION       3.0   830-0920   M W F  0221 TUREAUD HALL                     MOREIRA V
+(F)    17  ANSC 4018         1  PPLES ANIML GENETICS   3.0  1200-0120    T TH                                        COOPER R
+(F)    17  ANSC 4020         1  FRZN/CULT DARY PROD    3.0   830-0920   M W    0100 TUREAUD HALL                     BOENEKE C
+(F)    56  ANSC 4043         1  DOM ANIMAL ENDO        3.0  1030-1150    T TH  0215 WILLIAMS                         WILLIAMS C
+ 22    43  ANSC 4045         1  REPRO PHYS             3.0   930-1020   M W F  0120 TUREAUD HALL                     BONDIOLI K
+ 22     8  ANSC 4050         1  ANIMAL BIOTECHNOLOGY   3.0   230-0350   M W    0132 LOCKETT                          BONDIOLI K
+(F)    18  ANSC 4051         1  POULTRY BIOLOGY        3.0   430-0720N   T     0119 TUREAUD HALL                     INGRAM D
+(F)    18  ANSC 4092 SEM     1  AN SC PROSEMINAR       1.0   130-0220   M      0200 TUREAUD HALL                     WILLIAMS C
+ 12     3  ANSC 7001         1  EXPERIMENTAL METHODS   2.0  1030-1120   M W                                          THOMPSON D
