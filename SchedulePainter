@@ -60,7 +60,7 @@ class SchedulePainter {
             if (courses.get(i).getDays().contains("W")) {
                 x.add(401);
             }
-            if (courses.get(i).getDays().contains("T") && courses.get(i).getDays().substring(courses.get(i).getDays().indexOf("T")).contains("T")) {
+            if (courses.get(i).getDays().contains("TH")) {
                 x.add(554);
             }
             if (courses.get(i).getDays().contains("F")) {
