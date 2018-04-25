@@ -54,7 +54,7 @@ class SchedulePainter {
             if (courses.get(i).getDays().contains("M")) {
                 x.add(95);
             }
-            if (courses.get(i).getDays().contains("T") && courses.get(i).getDays().indexOf("T") <= 1 && courses.get(i).getDays().charAt(0) != 'W') {
+            if (courses.get(i).getDays().contains("T") && courses.get(i).getDays().charAt(courses.get(i).getDays().indexOf("T")+1) != 'H') {
                 x.add(248);
             }
             if (courses.get(i).getDays().contains("W")) {
