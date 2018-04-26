@@ -8,17 +8,6 @@ import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * A class for taking input from LSU's course offerings pages found at
- * http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85?OpenView&Start=1&Count=30&CollapseView
- * and exporting it as an ArrayList of courses.
- *
- * At the moment it only takes the URL and retrieves and parses out the text out
- * of the page's HTML. Still need to implement the parseText method as well as
- * document the whole thing.
- *
- * @author Zach
- */
 class DBHelper {
 
     /**
@@ -74,7 +63,10 @@ class DBHelper {
         try {
             while ((line = in.readLine()) != null) {
                 if (!(line.matches("^\\s*[A-Z<-].*"))) {
-                    bodyText += line + "\n";
+                    if (!line.matches("^\\s*[*]{1}.*")) {
+                        bodyText += line + "\n";
+                    }
+
                 }
             }
             in.close();
@@ -92,11 +84,13 @@ class DBHelper {
      * @return An arraylist of courses
      */
     ArrayList<Course> parseText(String input) {
-        ArrayList courseList = new ArrayList();
+        ArrayList<Course> courseList = new ArrayList();
         Scanner parser = new Scanner(input);
         String line, avl = "", enrlCnt = "", abbr = "", num = "", type = "", sec = "", title = "", crHr = "", time = "", days = "", room = "", building = "", special = "", instructor = "";
+        Time start, end;
         line = parser.nextLine();
         while (parser.hasNextLine()) {
+            line = String.format("%-120s", line);
             //Reset all values
             avl = "";
             enrlCnt = "";
@@ -114,98 +108,104 @@ class DBHelper {
             instructor = "";
 
             //Ensure line is a course line and parse out data
-            if (line.matches("^//s*[(\\d].*")) {
+            if (!line.matches("^\\s*[*]+.*")) {
                 avl = line.substring(0, 3).trim();
                 enrlCnt = line.substring(4, 9).trim();
-                abbr = line.substring(10, 14).trim();
-                num = line.substring(15, 19).trim();
+                abbr = line.substring(10, 15).trim();
+                num = line.substring(15, 20).trim();
                 type = line.substring(20, 25).trim();
                 sec = line.substring(26, 30).trim();
                 title = line.substring(31, 53).trim();
                 crHr = line.substring(54, 58).trim();
-                time = line.substring(59, 70).trim();
+                time = line.substring(58, 71).trim();
                 days = line.substring(71, 77).trim();
                 room = line.substring(78, 82).trim();
                 building = line.substring(83, 98).trim();
                 special = line.substring(99, 105).trim();
                 instructor = line.substring(106).trim();
 
-                //split the time into a start and end time
-                String[] split = time.split("-");
-                int starthours = 0, endhours = 0, startminutes = 0, endminutes = 0;
+                if (time.contains("-")) {
+                    //split the time into a start and end time
+                    String[] split = time.split("-");
+                    int starthours = 0, endhours = 0, startminutes = 0, endminutes = 0;
 
-                //Night class: Add 12 hours to start or end time
-                if (split[1].charAt(split[1].length() - 1) == 'N') {
-                    if (split[0].length() == 4) {
-                        starthours = Integer.parseInt(split[0].substring(0, 1)) + 12;
-                        startminutes = Integer.parseInt(split[0].substring(2, 3));
-                    } else if (split[0].length() == 3) {
-                        starthours = Integer.parseInt(split[0].substring(0, 0)) + 12;
-                        startminutes = Integer.parseInt(split[0].substring(1, 2));
-                    }
+                    //Night class: Add 12 hours to start or end time
+                    if (split[1].charAt(split[1].length() - 1) == 'N') {
+                        if (split[0].length() == 4) {
+                            starthours = Integer.parseInt(split[0].substring(0, 2)) + 12;
+                            startminutes = Integer.parseInt(split[0].substring(2, 4));
+                        } else if (split[0].length() == 3) {
+                            starthours = Integer.parseInt("" + split[0].charAt(0)) + 12;
+                            startminutes = Integer.parseInt(split[0].substring(1, 3));
+                        }
 
-                    //Delete the night class marker
-                    split[1] = split[1].replace("N", "");
+                        //Delete the night class marker
+                        split[1] = split[1].replace("N", "");
 
-                    if (split[1].length() == 4) {
-                        endhours = Integer.parseInt(split[0].substring(0, 1)) + 12;
-                        endminutes = Integer.parseInt(split[0].substring(2, 3));
-                    } else if (split[1].length() == 3) {
-                        endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
-                        endminutes = Integer.parseInt(split[0].substring(1, 2));
-                    }
+                        if (split[1].length() == 4) {
+                            endhours = Integer.parseInt(split[1].substring(0, 2)) + 12;
+                            endminutes = Integer.parseInt(split[1].substring(2, 4));
+                        } else if (split[1].length() == 3) {
+                            endhours = Integer.parseInt(split[1].substring(0, 1)) + 12;
+                            endminutes = Integer.parseInt(split[1].substring(1, 3));
+                        }
 
-                } //Not a night class 
-                else {
-                    if (split[0].length() == 4) {
-                        starthours = Integer.parseInt(split[0].substring(0, 1));
-                        startminutes = Integer.parseInt(split[0].substring(2, 3));
-                    } else if (split[0].length() == 3) {
-                        starthours = Integer.parseInt(split[0].substring(0, 0));
-                        startminutes = Integer.parseInt(split[0].substring(1, 2));
-                    }
+                    } //Not a night class 
+                    else {
+                        if (split[0].length() == 4) {
+                            starthours = Integer.parseInt(split[0].substring(0, 2));
+                            startminutes = Integer.parseInt(split[0].substring(2, 4));
+                        } else if (split[0].length() == 3) {
+                            starthours = Integer.parseInt("" + split[0].charAt(0));
+                            startminutes = Integer.parseInt(split[0].substring(1, 3));
+                        }
 
-                    if (split[1].length() == 4) {
-                        endhours = Integer.parseInt(split[0].substring(0, 1));
-                        endminutes = Integer.parseInt(split[0].substring(2, 3));
-                    } else if (split[1].length() == 3) {
-                        endhours = Integer.parseInt(split[0].substring(0, 0));
-                        endminutes = Integer.parseInt(split[0].substring(1, 2));
+                        if (split[1].length() == 4) {
+                            endhours = Integer.parseInt(split[1].substring(0, 2));
+                            endminutes = Integer.parseInt(split[1].substring(2, 4));
+                        } else if (split[1].length() == 3) {
+                            endhours = Integer.parseInt("" + split[1].charAt(0));
+                            endminutes = Integer.parseInt(split[1].substring(1, 3));
+                        }
+
+                        //starts or ends afternoon add 12 hours
+                        if (starthours < 7) {
+                            starthours += 12;
+                        }
+                        if (endhours <= 7) {
+                            endhours += 12;
+                        }
                     }
                     
-                    if(startminutes == 50)
-                    {
+                    if (startminutes == 50) {
                         starthours++;
                         startminutes = 0;
                     }
-                    if(endminutes == 50)
-                    {
+                    if (endminutes == 50) {
                         endhours++;
-                        endhours = 0;
+                        endminutes = 0;
                     }
-                    if(startminutes == 20)
+                    if (startminutes == 20) {
                         startminutes = 30;
-                    if(endminutes == 20)
+                    }
+                    if (endminutes == 20) {
                         endminutes = 30;
+                    }
 
-                    //starts/ends afternoon add 12 hours
-                    if (starthours < 7) {
-                        starthours += 12;
-                    }
-                    if (endhours <= 7) {
-                        endhours += 12;
-                    }
+                    //Create Time objects compatable with SchedulePainter
+                    start = new Time(starthours, startminutes, 0);
+                    end = new Time(endhours, endminutes, 0);
+                } else {
+                    start = new Time(0, 0, 0);
+                    end = new Time(0, 0, 0);
                 }
 
-                //Create Time objects compatable with SchedulePainter
-                Time start = new Time(starthours, startminutes, 0);
-                Time end = new Time(endhours, endminutes, 0);
-                
                 //Create course object and add to arraylist
-                Course newCourse = new Course(abbr, num, type, sec, title, crHr, start, end, days, room, building, special, instructor);
+                Course newCourse = new Course(abbr, num, type, sec, title, crHr, start, end, days, room, building, special, instructor, time);
                 courseList.add(newCourse);
             }
             line = parser.nextLine();
+
         }
 
         return courseList;
@@ -331,4 +331,4 @@ class DBHelper {
             "OCEANOGRAPHY & COASTAL SCIENCE", "PATHOBIOLOGICAL SCIENCES", "PETROLEUM ENGINEERING", "PHILOSOPHY", "PHYSICAL SCIENCE", "PHYSICS", "PLANT HEALTH", "POLITICAL SCIENCE", "PSYCHOLOGY",
             "PUBLIC ADMINISTRATION", "RELIGIOUS STUDIES", "RENEWABLE NATURA L RESOURCES", "SCREEN ARTS", "SOCIAL WORK", "SOCIOLOGY", "SPANISH", "STUDENT SUPPORT SERVICES",
             "TEXTILES,APPAREL & MERCHANDISI", "THEATRE", "UNIVERSITY STUDIES", "VETERINARY CLINICAL SCIENCES", "VETERINARY MEDICINE", "WOMEN'S AND GENDER STUDIES"};
-*/
+ */
