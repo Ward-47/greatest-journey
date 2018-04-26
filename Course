@@ -98,7 +98,7 @@ class Course {
     }
 
     public String toString() {
-        return String.format("%-4s %-4s %-7s %-2s %-22s %-4s %-11s %-6s %-4s %-15s %-16s %-15s", abbr, num, type, section, name, crHr, stringTime, days, room, building, special, instructor);
+        return String.format("%-4s %-4s %-2s %-22s %-4s %-11s %-6s %-4s %-15s %-15s", abbr, num, section, name, crHr, stringTime, days, room, building, instructor);
     }
 
 }
