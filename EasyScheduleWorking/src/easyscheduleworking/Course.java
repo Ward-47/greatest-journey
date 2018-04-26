@@ -1,6 +1,5 @@
 package easyscheduleworking;
 
-
 import java.sql.Time;
 
 class Course {
@@ -8,14 +7,14 @@ class Course {
     String abbr;        //CSC
     String num;         //3380
     String type;        //Lec/Lab
-    String section;     
+    String section;
     String name;        //Object Oriented Design
     String crHr;        //Credit hours
     Time startTime;     //Time object start time
     Time endTime;       //Time object end time
     String days;        //MWF, TuTh, MTuWTh, etc
     String room;        //room#
-    String building;    
+    String building;
     String special;     //special enrollment
     String instructor;  //Williams G
     String stringTime; //Time value as a string
@@ -37,11 +36,10 @@ class Course {
         this.building = building;
         this.special = special;
         this.instructor = aInstructor;
-        
+        this.stringTime = time;
 
         this.timeMinutes = (int) ((aEnd.getTime() - aStart.getTime()) / 60000);
     }
-
 
     String getAbbr() {
         return abbr;
@@ -51,7 +49,7 @@ class Course {
         return num;
     }
 
-    String gtType() {
+    String getType() {
         return type;
     }
 
@@ -98,4 +96,9 @@ class Course {
     String getHours() {
         return crHr;
     }
+
+    public String toString() {
+        return String.format("%-4s %-4s Section %-2s %-22s", abbr, num, section, name);
+    }
+
 }

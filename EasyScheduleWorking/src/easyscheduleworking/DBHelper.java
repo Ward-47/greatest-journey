@@ -1,5 +1,6 @@
 package easyscheduleworking;
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,17 +10,6 @@ import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * A class for taking input from LSU's course offerings pages found at
- * http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85?OpenView&Start=1&Count=30&CollapseView
- * and exporting it as an ArrayList of courses.
- *
- * At the moment it only takes the URL and retrieves and parses out the text out
- * of the page's HTML. Still need to implement the parseText method as well as
- * document the whole thing.
- *
- * @author Zach
- */
 class DBHelper {
 
     /**
@@ -123,13 +113,13 @@ class DBHelper {
             if (!line.matches("^\\s*[*]+.*")) {
                 avl = line.substring(0, 3).trim();
                 enrlCnt = line.substring(4, 9).trim();
-                abbr = line.substring(10, 14).trim();
-                num = line.substring(15, 19).trim();
+                abbr = line.substring(10, 15).trim();
+                num = line.substring(15, 20).trim();
                 type = line.substring(20, 25).trim();
                 sec = line.substring(26, 30).trim();
                 title = line.substring(31, 53).trim();
                 crHr = line.substring(54, 58).trim();
-                time = line.substring(59, 70).trim();
+                time = line.substring(58, 71).trim();
                 days = line.substring(71, 77).trim();
                 room = line.substring(78, 82).trim();
                 building = line.substring(83, 98).trim();
@@ -144,55 +134,40 @@ class DBHelper {
                     //Night class: Add 12 hours to start or end time
                     if (split[1].charAt(split[1].length() - 1) == 'N') {
                         if (split[0].length() == 4) {
-                            starthours = Integer.parseInt(split[0].substring(0, 1)) + 12;
-                            startminutes = Integer.parseInt(split[0].substring(2, 3));
+                            starthours = Integer.parseInt(split[0].substring(0, 2)) + 12;
+                            startminutes = Integer.parseInt(split[0].substring(2, 4));
                         } else if (split[0].length() == 3) {
                             starthours = Integer.parseInt("" + split[0].charAt(0)) + 12;
-                            startminutes = Integer.parseInt(split[0].substring(1, 2));
+                            startminutes = Integer.parseInt(split[0].substring(1, 3));
                         }
 
                         //Delete the night class marker
                         split[1] = split[1].replace("N", "");
 
                         if (split[1].length() == 4) {
-                            endhours = Integer.parseInt(split[0].substring(0, 1)) + 12;
-                            endminutes = Integer.parseInt(split[0].substring(2, 3));
+                            endhours = Integer.parseInt(split[1].substring(0, 2)) + 12;
+                            endminutes = Integer.parseInt(split[1].substring(2, 4));
                         } else if (split[1].length() == 3) {
-                            endhours = Integer.parseInt(split[0].substring(0, 0)) + 12;
-                            endminutes = Integer.parseInt(split[0].substring(1, 2));
+                            endhours = Integer.parseInt(split[1].substring(0, 1)) + 12;
+                            endminutes = Integer.parseInt(split[1].substring(1, 3));
                         }
 
                     } //Not a night class 
                     else {
                         if (split[0].length() == 4) {
-                            starthours = Integer.parseInt(split[0].substring(0, 1));
-                            startminutes = Integer.parseInt(split[0].substring(2, 3));
+                            starthours = Integer.parseInt(split[0].substring(0, 2));
+                            startminutes = Integer.parseInt(split[0].substring(2, 4));
                         } else if (split[0].length() == 3) {
                             starthours = Integer.parseInt("" + split[0].charAt(0));
-                            startminutes = Integer.parseInt(split[0].substring(1, 2));
+                            startminutes = Integer.parseInt(split[0].substring(1, 3));
                         }
 
                         if (split[1].length() == 4) {
-                            endhours = Integer.parseInt(split[0].substring(0, 1));
-                            endminutes = Integer.parseInt(split[0].substring(2, 3));
+                            endhours = Integer.parseInt(split[1].substring(0, 2));
+                            endminutes = Integer.parseInt(split[1].substring(2, 4));
                         } else if (split[1].length() == 3) {
-                            endhours = Integer.parseInt("" + split[0].charAt(0));
-                            endminutes = Integer.parseInt(split[0].substring(1, 2));
-                        }
-
-                        if (startminutes == 50) {
-                            starthours++;
-                            startminutes = 0;
-                        }
-                        if (endminutes == 50) {
-                            endhours++;
-                            endminutes = 0;
-                        }
-                        if (startminutes == 20) {
-                            startminutes = 30;
-                        }
-                        if (endminutes == 20) {
-                            endminutes = 30;
+                            endhours = Integer.parseInt("" + split[1].charAt(0));
+                            endminutes = Integer.parseInt(split[1].substring(1, 3));
                         }
 
                         //starts or ends afternoon add 12 hours
@@ -202,6 +177,21 @@ class DBHelper {
                         if (endhours <= 7) {
                             endhours += 12;
                         }
+                    }
+                    
+                    if (startminutes == 50) {
+                        starthours++;
+                        startminutes = 0;
+                    }
+                    if (endminutes == 50) {
+                        endhours++;
+                        endminutes = 0;
+                    }
+                    if (startminutes == 20) {
+                        startminutes = 30;
+                    }
+                    if (endminutes == 20) {
+                        endminutes = 30;
                     }
 
                     //Create Time objects compatable with SchedulePainter

@@ -5,12 +5,24 @@
  */
 package easyscheduleworking;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 /**
  *
- * @author Ty
+ * @author Ty, Ward, Rei, Zach, Eliot, Sa
  */
 public class MainPage extends javax.swing.JFrame {
+
+    public ArrayList<Course> courseCart = new ArrayList();
+    public ArrayList<Course> courseList;
+    String cart;
 
     /**
      * Creates new form MainPage
@@ -31,10 +43,19 @@ public class MainPage extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         courseDisplayPane = new javax.swing.JTextPane();
         departmentComboBox = new javax.swing.JComboBox<>();
+        courseNumLabel = new javax.swing.JLabel();
+        sectionLabel = new javax.swing.JLabel();
+        numField = new javax.swing.JTextField();
+        sectionField = new javax.swing.JTextField();
+        addCourseButton = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        cartTextArea = new javax.swing.JTextArea();
+        clearButton = new javax.swing.JButton();
+        finalizeButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("EasySchedule");
 
-        courseDisplayPane.setEditable(false);
         courseDisplayPane.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
         courseDisplayPane.setText("Select a department to begin.\n\nAvailable courses will be displayed here.");
         jScrollPane1.setViewportView(courseDisplayPane);
@@ -57,6 +78,37 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
     }
     });
 
+    courseNumLabel.setText("Course #:");
+
+    sectionLabel.setText("Section #:");
+
+    addCourseButton.setText("Add Course");
+    addCourseButton.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            addCourseButtonActionPerformed(evt);
+        }
+    });
+
+    cartTextArea.setEditable(false);
+    cartTextArea.setColumns(20);
+    cartTextArea.setRows(5);
+    cartTextArea.setText("Courses will appear here as you add them.");
+    jScrollPane2.setViewportView(cartTextArea);
+
+    clearButton.setLabel("Clear Course Cart");
+    clearButton.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            clearButtonActionPerformed(evt);
+        }
+    });
+
+    finalizeButton.setLabel("Finalize Course Cart");
+    finalizeButton.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            finalizeButtonActionPerformed(evt);
+        }
+    });
+
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(
@@ -64,9 +116,30 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
         .addGroup(layout.createSequentialGroup()
             .addContainerGap()
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(departmentComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 736, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addContainerGap(525, Short.MAX_VALUE))
+                .addGroup(layout.createSequentialGroup()
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 959, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(18, 18, 18)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(clearButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
+                            .addComponent(finalizeButton))
+                        .addComponent(jScrollPane2)))
+                .addGroup(layout.createSequentialGroup()
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(departmentComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(courseNumLabel)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(numField, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(25, 25, 25)
+                            .addComponent(sectionLabel)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(sectionField, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(addCourseButton)))
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGap(12, 12, 12))
     );
     layout.setVerticalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -74,8 +147,22 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
             .addGap(34, 34, 34)
             .addComponent(departmentComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 498, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addContainerGap(204, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 498, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createSequentialGroup()
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(18, 18, 18)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(clearButton)
+                        .addComponent(finalizeButton))))
+            .addGap(10, 10, 10)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(courseNumLabel)
+                .addComponent(numField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(sectionLabel)
+                .addComponent(sectionField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(addCourseButton))
+            .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
     );
 
     pack();
@@ -169,6 +256,7 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/6df2f6b41033da3186258252002c2672?OpenDocument", //PETROLEUM ENGINEERING
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/4ec00a6ced2fc7f486258252002c2674?OpenDocument", //PHILOSOPHY
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/8bc0b3625add04a586258252002c2677?OpenDocument", //PHYSICAL SCIENCE
+            "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/86703858cb3fe21a86258252002c267b?OpenDocument", //PHYSICS
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/7689eb29e8ec871586258252002c267f?OpenDocument", //PLANT HEALTH
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/268a3fa3efdee98586258252002c2680?OpenDocument", //POLITICAL SCIENCE
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/aa25082f8b14741986258252002c2685?OpenDocument", //PSYCHOLOGY
@@ -186,17 +274,64 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/d04e2ba23557e0f186258252002c26a2?OpenDocument", //VETRINARY CLINICAL SCIENCE
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/aacddf740840abf486258252002c26a6?OpenDocument", //VETERINARY MEDICINE
             "http://appl101.lsu.edu/booklet2.nsf/bed33d8925ab561b8625651700585b85/9562574cfef6900686258252002c26a9?OpenDocument"}; //WOMAN'S AND GENDER STUDIES
-        
+
         int i = departmentComboBox.getSelectedIndex();
-        courseHelper.loadURL(allURL[i-1]);
-        String courseListTxt = courseHelper.getText();
+        String courseListTxt;
         if (i == 0) {
             courseDisplayPane.setText("Select a department to begin.\n\nAvailable courses will be displayed here.");
         } else {
-            courseDisplayPane.setText(courseListTxt);
+            courseHelper.loadURL(allURL[i - 1]);
+            courseListTxt = courseHelper.getText();
+            courseDisplayPane.setText(""
+                    + "----------------------------------------------------------------------------------------------------------------------------------\n"
+                    + "                                                        HR     TIME                                  SPECIAL\n"
+                    + "AVL  CAP   ABBR NUM  TYPE  SEC  COURSE TITLE            CR  BEGIN-END   DAYS   ROOM  BUILDING        ENROLLMENT      INSTRUCTOR\n"
+                    + "----------------------------------------------------------------------------------------------------------------------------------\n" + courseListTxt);
+            courseDisplayPane.setCaretPosition(0);
+            courseList = courseHelper.parseText(courseListTxt);
         }
-        courseDisplayPane.setCaretPosition(0);
+
+
     }//GEN-LAST:event_departmentComboBoxActionPerformed
+
+    private void addCourseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseButtonActionPerformed
+        String numKey = numField.getText();
+        String secKey = sectionField.getText();
+        for (int i = 0; i < courseList.size(); i++) {
+            Course tempCourse = courseList.get(i);
+            if ((tempCourse.num.equals(numKey)) && (tempCourse.section.equals(secKey))) {
+                courseCart.add(tempCourse);
+            }
+        }
+        if (!courseCart.isEmpty()) {
+            cart += courseCart.get(courseCart.size() - 1).toString() + "\n";
+        }
+        cartTextArea.setText(cart);
+    }//GEN-LAST:event_addCourseButtonActionPerformed
+
+    private void clearButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonActionPerformed
+        while (!courseCart.isEmpty()) {
+            courseCart.remove(0);
+        }
+        cart = "";
+        cartTextArea.setText("Courses will appear here as you add them.");
+    }//GEN-LAST:event_clearButtonActionPerformed
+
+    ImageIcon t;
+    private void finalizeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_finalizeButtonActionPerformed
+        SchedulePainter painter = new SchedulePainter(courseCart);
+        try {
+            painter.printSchedule();
+            t = new ImageIcon("C:\\Users\\fortg\\OneDrive\\Documents\\NetBeansProjects\\EasyScheduleWorking\\new.png");
+        } catch (IOException ex) {
+            Logger.getLogger(MainPage.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
+        JLabel lbl = new JLabel(new ImageIcon(MainPage.class.getResource("image.png")));
+        JOptionPane.showMessageDialog(null, lbl, "ImageDialog",
+                JOptionPane.PLAIN_MESSAGE, null);
+    }//GEN-LAST:event_finalizeButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -234,8 +369,17 @@ departmentComboBox.addActionListener(new java.awt.event.ActionListener() {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton addCourseButton;
+    private javax.swing.JTextArea cartTextArea;
+    private javax.swing.JButton clearButton;
     private javax.swing.JTextPane courseDisplayPane;
+    private javax.swing.JLabel courseNumLabel;
     private javax.swing.JComboBox<String> departmentComboBox;
+    private javax.swing.JButton finalizeButton;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextField numField;
+    private javax.swing.JTextField sectionField;
+    private javax.swing.JLabel sectionLabel;
     // End of variables declaration//GEN-END:variables
 }
